@@ -1,0 +1,6 @@
+venv
+.env
+__pycache__
+feature_logs
+.venv
+setting.py
