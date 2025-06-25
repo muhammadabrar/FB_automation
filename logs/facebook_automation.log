@@ -1,0 +1,689 @@
+2025-06-25 23:54:41 | INFO     | run_enhanced_facebook_automation | 🚀 STARTING ENHANCED FACEBOOK AUTOMATION
+2025-06-25 23:54:41 | INFO     | save_accounts        | Saved 5 accounts
+2025-06-25 23:54:53 | INFO     | run_enhanced_facebook_automation | 🔐 LOGIN PHASE: 5 accounts need login attempts
+2025-06-25 23:54:54 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN 1/5: 61571921690396
+2025-06-25 23:54:54 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-25 23:54:54 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571921690396 ===
+2025-06-25 23:55:00 | DEBUG    | human_like_delay     | Human-like delay: 2.86 seconds
+2025-06-25 23:55:03 | INFO     | login_attempt        | Already logged in
+2025-06-25 23:55:03 | INFO     | enhanced_login_to_facebook | ✅ LOGIN SUCCESS in 8.77s
+2025-06-25 23:55:03 | INFO     | run_enhanced_facebook_automation | ✅ LOGIN SUCCESS - Account will be used for posts
+2025-06-25 23:55:04 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 12.6s before next login attempt...
+2025-06-25 23:55:16 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN 2/5: 61571930150364
+2025-06-25 23:55:17 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-25 23:55:17 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571930150364 ===
+2025-06-25 23:55:18 | DEBUG    | human_like_delay     | Human-like delay: 1.47 seconds
+2025-06-25 23:55:19 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-25 23:55:20 | DEBUG    | human_like_delay     | Human-like delay: 0.70 seconds
+2025-06-25 23:55:20 | DEBUG    | human_like_delay     | Human-like delay: 1.39 seconds
+2025-06-25 23:55:32 | WARNING  | retry_with_backoff   | Attempt 1 failed: Target page, context or browser has been closed
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+============================================================. Retrying in 3.77s...
+2025-06-25 23:55:35 | DEBUG    | retry_with_backoff   | Attempt 2/3
+2025-06-25 23:55:35 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571930150364 ===
+2025-06-25 23:55:35 | WARNING  | retry_with_backoff   | Attempt 2 failed: Page.goto: Target page, context or browser has been closed. Retrying in 4.64s...
+2025-06-25 23:55:40 | DEBUG    | retry_with_backoff   | Attempt 3/3
+2025-06-25 23:55:40 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571930150364 ===
+2025-06-25 23:55:40 | ERROR    | retry_with_backoff   | All 3 attempts failed. Final error: Page.goto: Target page, context or browser has been closed
+2025-06-25 23:55:40 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 23.17s: Page.goto: Target page, context or browser has been closed
+2025-06-25 23:55:40 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED - Account won't be used for posts
+2025-06-25 23:55:40 | ERROR    | run_enhanced_facebook_automation | 💥 Browser error for 61571930150364: BrowserContext.close: Target page, context or browser has been closed
+2025-06-25 23:55:40 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN 3/5: 61571919171009
+2025-06-25 23:55:41 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-25 23:55:41 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571919171009 ===
+2025-06-25 23:55:43 | DEBUG    | human_like_delay     | Human-like delay: 2.71 seconds
+2025-06-25 23:55:45 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-25 23:55:45 | DEBUG    | human_like_delay     | Human-like delay: 1.34 seconds
+2025-06-25 23:55:47 | DEBUG    | human_like_delay     | Human-like delay: 1.33 seconds
+2025-06-25 23:55:48 | DEBUG    | human_like_delay     | Human-like delay: 3.96 seconds
+2025-06-25 23:55:52 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-25 23:55:55 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodc3nzqzlcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-25 23:55:58 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodc3nzqzlcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-25 23:56:01 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodc3nzqzlcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-25 23:56:04 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodc3nzqzlcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-25 23:56:07 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodc3nzqzlcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-25 23:56:07 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-25 23:56:07 | WARNING  | retry_with_backoff   | Attempt 1 failed: Locator.is_visible: Target page, context or browser has been closed. Retrying in 3.72s...
+2025-06-25 23:56:11 | DEBUG    | retry_with_backoff   | Attempt 2/3
+2025-06-25 23:56:11 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571919171009 ===
+2025-06-25 23:56:11 | WARNING  | retry_with_backoff   | Attempt 2 failed: Page.goto: Target page, context or browser has been closed. Retrying in 5.20s...
+2025-06-25 23:56:16 | DEBUG    | retry_with_backoff   | Attempt 3/3
+2025-06-25 23:56:16 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571919171009 ===
+2025-06-25 23:56:16 | ERROR    | retry_with_backoff   | All 3 attempts failed. Final error: Page.goto: Target page, context or browser has been closed
+2025-06-25 23:56:16 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 35.66s: Page.goto: Target page, context or browser has been closed
+2025-06-25 23:56:16 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED - Account won't be used for posts
+2025-06-25 23:56:16 | ERROR    | run_enhanced_facebook_automation | 💥 Browser error for 61571919171009: BrowserContext.close: Target page, context or browser has been closed
+2025-06-25 23:56:16 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN 4/5: 61571926700760
+2025-06-25 23:56:17 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-25 23:56:17 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571926700760 ===
+2025-06-25 23:56:20 | DEBUG    | human_like_delay     | Human-like delay: 1.75 seconds
+2025-06-25 23:56:22 | INFO     | login_attempt        | Already logged in
+2025-06-25 23:56:22 | INFO     | enhanced_login_to_facebook | ✅ LOGIN SUCCESS in 4.74s
+2025-06-25 23:56:22 | INFO     | run_enhanced_facebook_automation | ✅ LOGIN SUCCESS - Account will be used for posts
+2025-06-25 23:56:22 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 21.8s before next login attempt...
+2025-06-25 23:56:44 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN 5/5: 61571935220014
+2025-06-25 23:56:45 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-25 23:56:45 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571935220014 ===
+2025-06-25 23:56:46 | DEBUG    | human_like_delay     | Human-like delay: 2.22 seconds
+2025-06-25 23:56:48 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-25 23:56:48 | DEBUG    | human_like_delay     | Human-like delay: 1.35 seconds
+2025-06-25 23:56:49 | DEBUG    | human_like_delay     | Human-like delay: 1.20 seconds
+2025-06-25 23:56:50 | DEBUG    | human_like_delay     | Human-like delay: 2.82 seconds
+2025-06-25 23:56:53 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-25 23:56:59 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodc3oda3lcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-25 23:56:59 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-25 23:56:59 | WARNING  | retry_with_backoff   | Attempt 1 failed: Locator.is_visible: Target page, context or browser has been closed. Retrying in 3.52s...
+2025-06-25 23:57:03 | DEBUG    | retry_with_backoff   | Attempt 2/3
+2025-06-25 23:57:03 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571935220014 ===
+2025-06-25 23:57:03 | WARNING  | retry_with_backoff   | Attempt 2 failed: Page.goto: Target page, context or browser has been closed. Retrying in 5.20s...
+2025-06-25 23:57:08 | DEBUG    | retry_with_backoff   | Attempt 3/3
+2025-06-25 23:57:08 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571935220014 ===
+2025-06-25 23:57:08 | ERROR    | retry_with_backoff   | All 3 attempts failed. Final error: Page.goto: Target page, context or browser has been closed
+2025-06-25 23:57:08 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 22.99s: Page.goto: Target page, context or browser has been closed
+2025-06-25 23:57:08 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED - Account won't be used for posts
+2025-06-25 23:57:08 | ERROR    | run_enhanced_facebook_automation | 💥 Browser error for 61571935220014: BrowserContext.close: Target page, context or browser has been closed
+2025-06-25 23:57:08 | INFO     | run_enhanced_facebook_automation | 📝 POST PHASE: 2 (account, post_url) pairs to process
+2025-06-25 23:57:08 | INFO     | run_enhanced_facebook_automation | 📝 PROCESSING POSTS 1/2: 61571921690396
+2025-06-25 23:57:14 | INFO     | run_enhanced_facebook_automation | 🎯 Processing post 1/1: https://www.facebook.com/share/p/1ZQbJMQ2wW/
+2025-06-25 23:57:14 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571921690396 ===
+2025-06-25 23:57:14 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1ZQbJMQ2wW/
+2025-06-25 23:57:17 | DEBUG    | human_like_delay     | Human-like delay: 4.37 seconds
+2025-06-25 23:57:21 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-25 23:57:21 | DEBUG    | human_like_delay     | Human-like delay: 0.84 seconds
+2025-06-25 23:57:22 | INFO     | like_attempt         | ✅ Like successful
+2025-06-25 23:57:22 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-25 23:57:22 | DEBUG    | human_like_delay     | Human-like delay: 1.11 seconds
+2025-06-25 23:57:25 | DEBUG    | human_like_delay     | Human-like delay: 0.91 seconds
+2025-06-25 23:57:26 | INFO     | comment_attempt      | ✅ Comment successful: 'Nice post!'
+2025-06-25 23:57:26 | INFO     | enhanced_like_comment_post | 🎉 Successfully liked and commented in 11.28s
+2025-06-25 23:57:26 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS (1/1)
+2025-06-25 23:57:26 | INFO     | run_enhanced_facebook_automation | ✅ Account 61571921690396: 1/1 posts processed successfully
+2025-06-25 23:57:48 | INFO     | run_enhanced_facebook_automation | ➡️ Continuing to next account
+2025-06-25 23:57:49 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 19.4s before next account...
+2025-06-25 23:58:08 | INFO     | run_enhanced_facebook_automation | 📝 PROCESSING POSTS 2/2: 61571926700760
+2025-06-25 23:58:12 | INFO     | run_enhanced_facebook_automation | 🎯 Processing post 1/1: https://www.facebook.com/share/p/1ZQbJMQ2wW/
+2025-06-25 23:58:12 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571926700760 ===
+2025-06-25 23:58:12 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1ZQbJMQ2wW/
+2025-06-25 23:58:15 | DEBUG    | human_like_delay     | Human-like delay: 3.75 seconds
+2025-06-25 23:58:19 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-25 23:58:19 | DEBUG    | human_like_delay     | Human-like delay: 1.16 seconds
+2025-06-25 23:58:50 | DEBUG    | human_like_delay     | Human-like delay: 1.21 seconds
+2025-06-25 23:59:22 | DEBUG    | human_like_delay     | Human-like delay: 0.70 seconds
+2025-06-25 23:59:52 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-25 23:59:52 | DEBUG    | human_like_delay     | Human-like delay: 0.60 seconds
+2025-06-25 23:59:54 | DEBUG    | human_like_delay     | Human-like delay: 1.42 seconds
+2025-06-25 23:59:56 | INFO     | comment_attempt      | ✅ Comment successful: 'Excellent!'
+2025-06-25 23:59:56 | INFO     | enhanced_like_comment_post | 🎉 Successfully commented in 104.09s
+2025-06-25 23:59:56 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS (1/1)
+2025-06-25 23:59:56 | INFO     | run_enhanced_facebook_automation | ✅ Account 61571926700760: 1/1 posts processed successfully
+2025-06-26 00:00:31 | INFO     | save_urls            | Saved 2 post URLs
+2025-06-26 00:00:31 | INFO     | run_enhanced_facebook_automation | ✅ Added new URL: https://www.facebook.com/share/p/1C4FA9mP6T/
+2025-06-26 00:00:31 | INFO     | run_enhanced_facebook_automation | ➡️ Continuing with updated URLs
+2025-06-26 00:00:41 | INFO     | run_enhanced_facebook_automation | 🔄 Restarting automation with new configuration
+2025-06-26 00:00:41 | INFO     | run_enhanced_facebook_automation | 🔐 LOGIN PHASE: 5 accounts need login attempts
+2025-06-26 00:00:42 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN 1/5: 61571921690396
+2025-06-26 00:00:43 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-26 00:00:43 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571921690396 ===
+2025-06-26 00:00:48 | DEBUG    | human_like_delay     | Human-like delay: 2.34 seconds
+2025-06-26 00:00:50 | INFO     | login_attempt        | Already logged in
+2025-06-26 00:00:50 | INFO     | enhanced_login_to_facebook | ✅ LOGIN SUCCESS in 7.39s
+2025-06-26 00:00:50 | INFO     | run_enhanced_facebook_automation | ✅ LOGIN SUCCESS - Account will be used for posts
+2025-06-26 00:00:50 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 26.5s before next login attempt...
+2025-06-26 00:01:17 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN 2/5: 61571930150364
+2025-06-26 00:01:18 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-26 00:01:18 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571930150364 ===
+2025-06-26 00:01:19 | DEBUG    | human_like_delay     | Human-like delay: 2.60 seconds
+2025-06-26 00:01:21 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:01:21 | DEBUG    | human_like_delay     | Human-like delay: 0.78 seconds
+2025-06-26 00:01:22 | DEBUG    | human_like_delay     | Human-like delay: 1.42 seconds
+2025-06-26 00:01:30 | DEBUG    | human_like_delay     | Human-like delay: 2.64 seconds
+2025-06-26 00:01:33 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/auth_platform/codesubmit/?apc=admjttmc_9e_pu5bq9awehzbfkrspdgqczmmjah5lv_v9krxrrc2hsx1u3qytmlkvi8wusfbvkjc7dppfr72v5w2rdsaigt2qe_2jpnpk6z9okr-3gtu_ptlgzs7w_z3aopo54zts2xf3oznmpsisoqxvap-cfmz4_jzcvdd_d_b3o-yc5pte-7d_c3ietlu4bptaezh_nkrnaowzl8v0uqxdwjki09owbwcxku3iyrosgz1p7mz7trpmbf2gmazynwczi5dwwx50t72fj8qv_nkn8bqt0d7wnf-zorsfmqcommlv042hvloe4qkd-4dohmt2tdikl5v5avifxzfizwmt7l6ycxdswtxfh9ws_x7sf8e_nz5jfzhi_hfqefbq7-srqsilnk39jtqm-yioecn5lws2lowla1pgokgsbiflqslvoc3supsrtalcwxbgl6trt2yukuujr3msz4v-u6erxuwggyi3zfvx1nhp9ixafrjad7d156yvwzddrqtpp0veohf_1wggde9ittulaoedb-ro2pxfvpj0nz_7aqmrlrgyqw6miwzh0pueo52rkjjyugk-ci_qodeaqdq2btggomenlka7xwx9dgplgxjevlg5bz23-jvgcfux3eq8pakyzyxmvmc9iee1ejdxujk2x6r6sa4xqpie01jvpfznfdo-pvws1xb2ju8bi2iwiyimqn1bn5yzbtrngo32desmghujuugk8py8rmhrmdagmsgs1o4sdvivonurrncogayk-ysm1x8nedi3kgl3vpn7fjgdycrwxhswywhofmwhjg_mpncrxomfj8w9mm5fjaujesamo8alizsp5focotm-1fstdk1yj-xaemintgdlpqrcjlowiuqejfbcnkq0yet_rxzcasursr4kjvuo6wk48gn-9gxkrpvvm8rdsy1yr4aqvmtepdkgvzkr7v-tnlry8ybas8cmhm-worjyaexxgarkfo3blmci6gsrldevqpow6fpprxkgtu7xrg0cgeareempuaf-zqfez_wqjcjcfts0cd8g0tmkvcmohf_qgm5dgzw36pnzfppreqtzevi4pg9xleqzwfefqjr9evgbzu_wb2fbjhcirelnb7wklfejrdglvm3cuihogsbp9rneomxcer-dsuwdj-2vjr6ou0rye3f2q3d5royqxz-izbs6qdkrcl_qdmufnylvgs-uw4aujdivmogo6w2t2kd0-8yimzp7f1vwmw_z2dhg5jddrunixs4hzme8xpjc57i2raehljnrrctg69tqcbjtz1hy5ixselasrkrwpsu_5qypr5r_nuk_cyaxkgfqjvw8k-4xuqv-z6_vnrmi-apccjxbatyjukyptplthjgkljqicn_bmgmshxvpd8q3m_xafhgz50gjk0yertom2k1qgqekuzdqkcypzbljtpmcfs20upn_g%7caplc
+2025-06-26 00:01:33 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:01:33 | WARNING  | retry_with_backoff   | Attempt 1 failed: Locator.is_visible: Target page, context or browser has been closed. Retrying in 3.19s...
+2025-06-26 00:01:36 | DEBUG    | retry_with_backoff   | Attempt 2/3
+2025-06-26 00:01:36 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571930150364 ===
+2025-06-26 00:01:36 | WARNING  | retry_with_backoff   | Attempt 2 failed: Page.goto: Target page, context or browser has been closed. Retrying in 5.16s...
+2025-06-26 00:01:41 | DEBUG    | retry_with_backoff   | Attempt 3/3
+2025-06-26 00:01:41 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571930150364 ===
+2025-06-26 00:01:41 | ERROR    | retry_with_backoff   | All 3 attempts failed. Final error: Page.goto: Target page, context or browser has been closed
+2025-06-26 00:01:41 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 23.59s: Page.goto: Target page, context or browser has been closed
+2025-06-26 00:01:41 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED - Account won't be used for posts
+2025-06-26 00:01:41 | ERROR    | run_enhanced_facebook_automation | 💥 Browser error for 61571930150364: BrowserContext.close: Target page, context or browser has been closed
+2025-06-26 00:01:41 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN 3/5: 61571919171009
+2025-06-26 00:01:42 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-26 00:01:42 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571919171009 ===
+2025-06-26 00:01:43 | DEBUG    | human_like_delay     | Human-like delay: 1.79 seconds
+2025-06-26 00:01:45 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:01:45 | DEBUG    | human_like_delay     | Human-like delay: 0.61 seconds
+2025-06-26 00:01:45 | DEBUG    | human_like_delay     | Human-like delay: 0.95 seconds
+2025-06-26 00:01:46 | DEBUG    | human_like_delay     | Human-like delay: 2.63 seconds
+2025-06-26 00:01:49 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:01:52 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodc4mta0lcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-26 00:01:52 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:01:52 | WARNING  | retry_with_backoff   | Attempt 1 failed: Locator.is_visible: Target page, context or browser has been closed. Retrying in 2.56s...
+2025-06-26 00:01:55 | DEBUG    | retry_with_backoff   | Attempt 2/3
+2025-06-26 00:01:55 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571919171009 ===
+2025-06-26 00:01:55 | WARNING  | retry_with_backoff   | Attempt 2 failed: Page.goto: Target page, context or browser has been closed. Retrying in 5.67s...
+2025-06-26 00:02:01 | DEBUG    | retry_with_backoff   | Attempt 3/3
+2025-06-26 00:02:01 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571919171009 ===
+2025-06-26 00:02:01 | ERROR    | retry_with_backoff   | All 3 attempts failed. Final error: Page.goto: Target page, context or browser has been closed
+2025-06-26 00:02:01 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 18.78s: Page.goto: Target page, context or browser has been closed
+2025-06-26 00:02:01 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED - Account won't be used for posts
+2025-06-26 00:02:01 | ERROR    | run_enhanced_facebook_automation | 💥 Browser error for 61571919171009: BrowserContext.close: Target page, context or browser has been closed
+2025-06-26 00:02:01 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN 4/5: 61571926700760
+2025-06-26 00:02:01 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-26 00:02:01 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571926700760 ===
+2025-06-26 00:02:07 | DEBUG    | human_like_delay     | Human-like delay: 1.64 seconds
+2025-06-26 00:02:08 | INFO     | login_attempt        | Already logged in
+2025-06-26 00:02:08 | INFO     | enhanced_login_to_facebook | ✅ LOGIN SUCCESS in 6.79s
+2025-06-26 00:02:08 | INFO     | run_enhanced_facebook_automation | ✅ LOGIN SUCCESS - Account will be used for posts
+2025-06-26 00:02:09 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 29.1s before next login attempt...
+2025-06-26 00:02:38 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN 5/5: 61571935220014
+2025-06-26 00:02:38 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-26 00:02:38 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571935220014 ===
+2025-06-26 00:02:39 | DEBUG    | human_like_delay     | Human-like delay: 2.41 seconds
+2025-06-26 00:02:42 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:02:42 | DEBUG    | human_like_delay     | Human-like delay: 0.88 seconds
+2025-06-26 00:02:43 | DEBUG    | human_like_delay     | Human-like delay: 1.45 seconds
+2025-06-26 00:02:44 | DEBUG    | human_like_delay     | Human-like delay: 3.70 seconds
+2025-06-26 00:02:48 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:02:54 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodc4mtyxlcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-26 00:02:54 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:02:54 | WARNING  | retry_with_backoff   | Attempt 1 failed: Locator.is_visible: Target page, context or browser has been closed. Retrying in 3.46s...
+2025-06-26 00:02:57 | DEBUG    | retry_with_backoff   | Attempt 2/3
+2025-06-26 00:02:57 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571935220014 ===
+2025-06-26 00:02:57 | WARNING  | retry_with_backoff   | Attempt 2 failed: Page.goto: Target page, context or browser has been closed. Retrying in 4.50s...
+2025-06-26 00:03:02 | DEBUG    | retry_with_backoff   | Attempt 3/3
+2025-06-26 00:03:02 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571935220014 ===
+2025-06-26 00:03:02 | ERROR    | retry_with_backoff   | All 3 attempts failed. Final error: Page.goto: Target page, context or browser has been closed
+2025-06-26 00:03:02 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 23.30s: Page.goto: Target page, context or browser has been closed
+2025-06-26 00:03:02 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED - Account won't be used for posts
+2025-06-26 00:03:02 | ERROR    | run_enhanced_facebook_automation | 💥 Browser error for 61571935220014: BrowserContext.close: Target page, context or browser has been closed
+2025-06-26 00:03:02 | INFO     | run_enhanced_facebook_automation | 📝 POST PHASE: 4 (account, post_url) pairs to process
+2025-06-26 00:03:02 | INFO     | run_enhanced_facebook_automation | 📝 PROCESSING POSTS 1/2: 61571921690396
+2025-06-26 00:03:09 | INFO     | run_enhanced_facebook_automation | 🎯 Processing post 1/2: https://www.facebook.com/share/p/1ZQbJMQ2wW/
+2025-06-26 00:03:09 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571921690396 ===
+2025-06-26 00:03:09 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1ZQbJMQ2wW/
+2025-06-26 00:03:12 | DEBUG    | human_like_delay     | Human-like delay: 3.83 seconds
+2025-06-26 00:03:15 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:03:16 | DEBUG    | human_like_delay     | Human-like delay: 1.39 seconds
+2025-06-26 00:03:17 | INFO     | like_attempt         | ✅ Like successful
+2025-06-26 00:03:17 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:03:17 | DEBUG    | human_like_delay     | Human-like delay: 1.47 seconds
+2025-06-26 00:03:20 | DEBUG    | human_like_delay     | Human-like delay: 1.14 seconds
+2025-06-26 00:03:22 | INFO     | comment_attempt      | ✅ Comment successful: 'Great content!'
+2025-06-26 00:03:22 | INFO     | enhanced_like_comment_post | 🎉 Successfully liked and commented in 12.56s
+2025-06-26 00:03:22 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS (1/2)
+2025-06-26 00:03:22 | DEBUG    | human_like_delay     | Human-like delay: 4.36 seconds
+2025-06-26 00:03:26 | INFO     | run_enhanced_facebook_automation | 🎯 Processing post 2/2: https://www.facebook.com/share/p/1C4FA9mP6T/
+2025-06-26 00:03:26 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571921690396 ===
+2025-06-26 00:03:26 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1C4FA9mP6T/
+2025-06-26 00:03:28 | DEBUG    | human_like_delay     | Human-like delay: 3.46 seconds
+2025-06-26 00:03:32 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:03:32 | DEBUG    | human_like_delay     | Human-like delay: 0.89 seconds
+2025-06-26 00:04:04 | DEBUG    | human_like_delay     | Human-like delay: 0.71 seconds
+2025-06-26 00:04:36 | DEBUG    | human_like_delay     | Human-like delay: 1.18 seconds
+2025-06-26 00:05:07 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:05:09 | DEBUG    | human_like_delay     | Human-like delay: 0.51 seconds
+2025-06-26 00:05:12 | DEBUG    | human_like_delay     | Human-like delay: 0.73 seconds
+2025-06-26 00:05:13 | INFO     | comment_attempt      | ✅ Comment successful: 'Awesome!'
+2025-06-26 00:05:13 | INFO     | enhanced_like_comment_post | 🎉 Successfully commented in 106.93s
+2025-06-26 00:05:13 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS (2/2)
+2025-06-26 00:05:13 | INFO     | run_enhanced_facebook_automation | ✅ Account 61571921690396: 2/2 posts processed successfully
+2025-06-26 00:05:26 | INFO     | run_enhanced_facebook_automation | ➡️ Continuing to next account
+2025-06-26 00:05:26 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 18.4s before next account...
+2025-06-26 00:05:45 | INFO     | run_enhanced_facebook_automation | 📝 PROCESSING POSTS 2/2: 61571926700760
+2025-06-26 00:05:48 | INFO     | run_enhanced_facebook_automation | 🎯 Processing post 1/2: https://www.facebook.com/share/p/1ZQbJMQ2wW/
+2025-06-26 00:05:48 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571926700760 ===
+2025-06-26 00:05:48 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1ZQbJMQ2wW/
+2025-06-26 00:05:52 | DEBUG    | human_like_delay     | Human-like delay: 4.10 seconds
+2025-06-26 00:05:56 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:05:56 | DEBUG    | human_like_delay     | Human-like delay: 1.14 seconds
+2025-06-26 00:06:27 | DEBUG    | human_like_delay     | Human-like delay: 1.40 seconds
+2025-06-26 00:06:59 | DEBUG    | human_like_delay     | Human-like delay: 1.39 seconds
+2025-06-26 00:07:30 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:07:30 | DEBUG    | human_like_delay     | Human-like delay: 0.66 seconds
+2025-06-26 00:07:32 | DEBUG    | human_like_delay     | Human-like delay: 0.52 seconds
+2025-06-26 00:07:33 | INFO     | comment_attempt      | ✅ Comment successful: 'Amazing!'
+2025-06-26 00:07:33 | INFO     | enhanced_like_comment_post | 🎉 Successfully commented in 104.09s
+2025-06-26 00:07:33 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS (1/2)
+2025-06-26 00:07:33 | DEBUG    | human_like_delay     | Human-like delay: 7.65 seconds
+2025-06-26 00:07:40 | INFO     | run_enhanced_facebook_automation | 🎯 Processing post 2/2: https://www.facebook.com/share/p/1C4FA9mP6T/
+2025-06-26 00:07:40 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571926700760 ===
+2025-06-26 00:07:40 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1C4FA9mP6T/
+2025-06-26 00:07:44 | DEBUG    | human_like_delay     | Human-like delay: 4.57 seconds
+2025-06-26 00:07:48 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:07:48 | DEBUG    | human_like_delay     | Human-like delay: 1.08 seconds
+2025-06-26 00:08:19 | DEBUG    | human_like_delay     | Human-like delay: 1.42 seconds
+2025-06-26 00:08:51 | DEBUG    | human_like_delay     | Human-like delay: 1.01 seconds
+2025-06-26 00:09:22 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:09:22 | DEBUG    | human_like_delay     | Human-like delay: 1.20 seconds
+2025-06-26 00:09:25 | DEBUG    | human_like_delay     | Human-like delay: 1.23 seconds
+2025-06-26 00:09:27 | INFO     | comment_attempt      | ✅ Comment successful: 'Great content!'
+2025-06-26 00:09:27 | INFO     | enhanced_like_comment_post | 🎉 Successfully commented in 106.28s
+2025-06-26 00:09:27 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS (2/2)
+2025-06-26 00:09:27 | INFO     | run_enhanced_facebook_automation | ✅ Account 61571926700760: 2/2 posts processed successfully
+2025-06-26 00:10:38 | INFO     | save_urls            | Saved 3 post URLs
+2025-06-26 00:10:45 | INFO     | run_enhanced_facebook_automation | ➡️ Continuing with updated URLs
+2025-06-26 00:14:44 | INFO     | run_enhanced_facebook_automation | 👋 User chose to exit
+2025-06-26 00:14:44 | INFO     | run_enhanced_facebook_automation | 🏁 ENHANCED AUTOMATION COMPLETED
+2025-06-26 00:14:44 | INFO     | load_accounts        | Loaded 5 accounts
+2025-06-26 00:14:44 | INFO     | main                 | 🔚 Script finished
+2025-06-26 00:14:45 | INFO     | run_enhanced_facebook_automation | 🚀 STARTING ENHANCED FACEBOOK AUTOMATION
+2025-06-26 00:14:45 | INFO     | load_urls            | Loaded 3 saved post URLs
+2025-06-26 00:14:45 | INFO     | load_accounts        | Loaded 5 accounts
+2025-06-26 00:14:58 | INFO     | run_enhanced_facebook_automation | 📝 PROCESSING POST: https://www.facebook.com/share/p/1ENqtZqdHC/ FOR ACCOUNT: 61571921690396
+2025-06-26 00:15:04 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571921690396 ===
+2025-06-26 00:15:04 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1ENqtZqdHC/
+2025-06-26 00:15:07 | DEBUG    | human_like_delay     | Human-like delay: 4.83 seconds
+2025-06-26 00:15:12 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:15:12 | DEBUG    | human_like_delay     | Human-like delay: 1.25 seconds
+2025-06-26 00:15:14 | INFO     | like_attempt         | ✅ Like successful
+2025-06-26 00:15:14 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:15:14 | DEBUG    | human_like_delay     | Human-like delay: 1.17 seconds
+2025-06-26 00:15:17 | DEBUG    | human_like_delay     | Human-like delay: 0.68 seconds
+2025-06-26 00:15:18 | INFO     | comment_attempt      | ✅ Comment successful: 'Great content!'
+2025-06-26 00:15:18 | INFO     | enhanced_like_comment_post | 🎉 Successfully liked and commented in 13.24s
+2025-06-26 00:15:18 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS
+2025-06-26 00:15:18 | INFO     | run_enhanced_facebook_automation | 📝 PROCESSING POST: https://www.facebook.com/share/p/1ENqtZqdHC/ FOR ACCOUNT: 61571926700760
+2025-06-26 00:15:24 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571926700760 ===
+2025-06-26 00:15:24 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1ENqtZqdHC/
+2025-06-26 00:15:28 | DEBUG    | human_like_delay     | Human-like delay: 3.39 seconds
+2025-06-26 00:15:31 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:15:31 | DEBUG    | human_like_delay     | Human-like delay: 1.04 seconds
+2025-06-26 00:16:02 | DEBUG    | human_like_delay     | Human-like delay: 0.62 seconds
+2025-06-26 00:16:33 | DEBUG    | human_like_delay     | Human-like delay: 0.74 seconds
+2025-06-26 00:17:04 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:17:04 | DEBUG    | human_like_delay     | Human-like delay: 1.45 seconds
+2025-06-26 00:17:06 | DEBUG    | human_like_delay     | Human-like delay: 0.93 seconds
+2025-06-26 00:17:07 | INFO     | comment_attempt      | ✅ Comment successful: 'Perfect!'
+2025-06-26 00:17:07 | INFO     | enhanced_like_comment_post | 🎉 Successfully commented in 102.99s
+2025-06-26 00:17:07 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS
+2025-06-26 00:17:53 | INFO     | save_accounts        | Saved 6 accounts
+2025-06-26 00:17:58 | INFO     | run_enhanced_facebook_automation | 🔄 Restarting automation with new configuration
+2025-06-26 00:17:58 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN: 61571921690396
+2025-06-26 00:17:59 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-26 00:17:59 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571921690396 ===
+2025-06-26 00:18:04 | DEBUG    | human_like_delay     | Human-like delay: 1.65 seconds
+2025-06-26 00:18:06 | INFO     | login_attempt        | Already logged in
+2025-06-26 00:18:06 | INFO     | enhanced_login_to_facebook | ✅ LOGIN SUCCESS in 6.79s
+2025-06-26 00:18:06 | INFO     | run_enhanced_facebook_automation | ✅ LOGIN SUCCESS - Account will be used for posts
+2025-06-26 00:18:06 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN: 61571930150364
+2025-06-26 00:18:07 | DEBUG    | retry_with_backoff   | Attempt 1/3
+2025-06-26 00:18:07 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571930150364 ===
+2025-06-26 00:18:08 | DEBUG    | human_like_delay     | Human-like delay: 2.99 seconds
+2025-06-26 00:18:11 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:18:11 | DEBUG    | human_like_delay     | Human-like delay: 0.97 seconds
+2025-06-26 00:18:12 | DEBUG    | human_like_delay     | Human-like delay: 0.85 seconds
+2025-06-26 00:18:19 | DEBUG    | human_like_delay     | Human-like delay: 2.20 seconds
+2025-06-26 00:18:21 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/auth_platform/codesubmit/?apc=admo-kxtqfgc4lei7kavpppdhtaoljpcmlpubh0saxvmazt-vmgn0zta2r8r9uwpqj_hll59cljapmdidqycyptfekkdnalnsucqnmd647nyaccxuutxmo6degpdoxc9bgqionneh2e5zksxzf52yf9vdifou8cz8do9-tgwvnnu6ix7dhzsrpcwfk5uw47lsntn5wfqq2ob-pb2-kzfefzn3tbrivsydyq0pfjvofco4perulm0qmi7nfz6i15v9zpwkziggiuz5swg0hxdox4ehsrl0pcf_qev-zrmilvvkm5dv35waltc-jnbrgjikw1ghsa42kblomtgwf-c6lyuwnt8y4x8iajwrusbbhl2zu_j4hsnjwttwjrtu2wugoqlsdzeee3eyij4k74xutjp4wz7zucd1x134q_9mlz6eiok8qcxsimlvb6tunkqlz04hyuochkq-2nep7plaqnqopfowtyw7pank3dqisfoczvnzbqwnjoynqc2rpongefhfwrxohmgp16ra17s4e3yyf8virl8xe9rqswe1oyjpbddv7qbbi4t7paxifu-jlnd9ucrbupxuwmgd-gxevnm37bh7fnoykzmksttnyut8eurhdag6stv06_eq7djiftm5g17t4m4aowgow_4f0bjy3qxq0ijcvgcdjqzkstq_ct-iaechd0igxnlnwr7ai9cstctwswm2quqga1sehson4m1xzsaylrvoqavgbqajhdtkelmppvdok7ojnm5vtf2ra6nfkfw0in-nqj_w2xoronnxarpubokolw46yzarteec8n_mu00v6qavic9rcvqr7hc2nmnvcl4pgvq9ejaiurzokj7l8wwfz7acjf4ucppqgpgc5316lhrv9riqqgd_4n1plhqizxygba7rsckxhjbhbjnkdnbjs80vecnep6mmbsjadvexeggrbqxxciicy3ffmzrf52kz9yjpihthlelnxncixxc9gvtpocyjfi9nfgbcijggxui-udqen5s_jctzplsubtz8hh0whjo9lxakukw-pn6_tp-ochfwrmke4joq513rtboru3agvaz5xpg2imzf4ywngffbcdkjzyop0ffqwcz949yqqddbdbdrdm5fqz5vo-n-pad1tuglwpztl5di7cyqldlcbtqlzipa2vx2bzbvjnsz-wl0qimgn8fb-9ch8nrwsovgslvo-w_0mtpiudy_axegipyspvfe624vnbhjgexaffi1jeuhms8xovyqajpq_5kkohgdkzzvrhgx6ad__svfev-zmdwhxwlkuwqqs5_culnuytvikfbocdvvlpj1h_ls33en6y2c8f7yhujdsgqnihmhcgjip8ls8rx7hrpdkh7f58l-bzypqdugsa5pbkxr1xftutqxsevdbzyo15r-xdnw60kurstz3cj10zctle2njit_rdwzeo%7caplc
+2025-06-26 00:18:21 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:18:21 | WARNING  | retry_with_backoff   | Attempt 1 failed: Locator.is_visible: Target page, context or browser has been closed. Retrying in 3.18s...
+2025-06-26 00:18:24 | DEBUG    | retry_with_backoff   | Attempt 2/3
+2025-06-26 00:18:24 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571930150364 ===
+2025-06-26 00:18:24 | WARNING  | retry_with_backoff   | Attempt 2 failed: Page.goto: Target page, context or browser has been closed. Retrying in 4.95s...
+2025-06-26 00:18:26 | WARNING  | main                 | ⚠️ Script interrupted by user
+2025-06-26 00:18:26 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:18:26 | INFO     | main                 | 🔚 Script finished
+2025-06-26 00:25:04 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:25:04 | INFO     | load_urls            | Loaded 3 saved post URLs
+2025-06-26 00:25:04 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN: 61571930150364
+2025-06-26 00:25:05 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:25:05 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571930150364 ===
+2025-06-26 00:25:07 | DEBUG    | human_like_delay     | Human-like delay: 2.34 seconds
+2025-06-26 00:25:09 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:25:09 | DEBUG    | human_like_delay     | Human-like delay: 0.95 seconds
+2025-06-26 00:25:10 | DEBUG    | human_like_delay     | Human-like delay: 1.17 seconds
+2025-06-26 00:25:17 | DEBUG    | human_like_delay     | Human-like delay: 3.70 seconds
+2025-06-26 00:25:21 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/auth_platform/codesubmit/?apc=adk8lxykxbcxvrnvfbtoc-1sdmwssclzx84pdt12rza1qqiq1dbuditg1uqyzkadbk1aaidpexqby-mj7m6dzv9qbzxjpotftafljbxuakb9wjj2os_cpajh8zd8kljqwlgsokix70h8gi5fuz0nifgqtizpkwsazdymuonle43vsuafxxux7-hveqkovf4gcx7frl2ztq1c8czyq2epnbvwn-h47p91m5y4gonui6yuzhdvl49tngmznuz3bxcy-ndwzepuxvmg2ademwtfbdb5vxeusik8-q-g6uh0rkgy9dhma4asbe4iatgq8g6dq0tndqqyyfthnlsrco0vkwoz6hkgfivkqavlalr6-jm28uerci2hix9e5qqolplqbpcqem0vxg8mavrjfxhkketp3-4yms4y6juodhvlpli3dlc07bdzc_dp8zjzxxgysmhuiwr06pqghqqaadkq9t-1lm78oz3l86iz1kb3uj7ju5ws5mss3q6j0gsw-byajrxynlrrimavqqkui6t1glunk44lqfv3sgfynyarlmhkuvf1isera10nwt2te_er3vr7copzumwqgwxgjbpoot4jduj8rg7y9p23qoyueinaqj6xnoch2tstq4xo8hluee9nhoavffw7f_nhqm9-zrkiqtz_lmgctgjn8vqq1cb4_ny5hcge8k7rwhnkomy542ynh3fbs1nxcf5edunnpqw6tirvgsug7gztjirod8s9f4f0enoompqzfsiescjcq4edq31he9kufxg9ylwtjgdbe1mx1mwlhsmsjrishdkeu4ughrxtyboam2jidwpqwnudxgoynt8cgfsgrf5mhge2lprdgvdorzdzrlgcvyumvxvk3ck4zg0y0ix0ckxirl-cyuukn7swhqdxmxpibwdv1u37exq_fi42vxdvze_-h_bvfwnmbhy8w_cgra3epnvu2y6xzdwjlyglr8ooo8g3esv4jvr1ksw-dop2iz57p-_hxnscaondhq58wfckgs9pwyqwpx9ic5g-mtbems9p2dmaftyc1l-as_cfmrixytn7p-1l8d2zcel2pfxe9m9lrkhjlkxofq1zwuflvgned9bdv2jffymuxbip3ss_surhljnta4j8oxctrahkhuzwmih2dchlgbvchokjweybjfimlo9oqlahlbkw7kkfnjhxxpvopimyccn6uyka1wwqxxq2xzta6qjlttsxonmsxzrr5u2f12xllsnmyzm5dy9bfsuodgyfgvoqlpza0htrgcjemufns2ndoyx8nusvq3qnquifjhrdwp5lfspswiledbqs0c01jjzx5damuap5grxboyp4xzk_rvydsbgm10myfkvntvd-wn0bb3ot2qe0q7r_znc66fgclf5qiywoer7snjuyb6cp_4jlmzptiitmfiwog4c222xxx03lwxpcmqro%7caplc
+2025-06-26 00:25:24 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/auth_platform/codesubmit/?apc=adk8lxykxbcxvrnvfbtoc-1sdmwssclzx84pdt12rza1qqiq1dbuditg1uqyzkadbk1aaidpexqby-mj7m6dzv9qbzxjpotftafljbxuakb9wjj2os_cpajh8zd8kljqwlgsokix70h8gi5fuz0nifgqtizpkwsazdymuonle43vsuafxxux7-hveqkovf4gcx7frl2ztq1c8czyq2epnbvwn-h47p91m5y4gonui6yuzhdvl49tngmznuz3bxcy-ndwzepuxvmg2ademwtfbdb5vxeusik8-q-g6uh0rkgy9dhma4asbe4iatgq8g6dq0tndqqyyfthnlsrco0vkwoz6hkgfivkqavlalr6-jm28uerci2hix9e5qqolplqbpcqem0vxg8mavrjfxhkketp3-4yms4y6juodhvlpli3dlc07bdzc_dp8zjzxxgysmhuiwr06pqghqqaadkq9t-1lm78oz3l86iz1kb3uj7ju5ws5mss3q6j0gsw-byajrxynlrrimavqqkui6t1glunk44lqfv3sgfynyarlmhkuvf1isera10nwt2te_er3vr7copzumwqgwxgjbpoot4jduj8rg7y9p23qoyueinaqj6xnoch2tstq4xo8hluee9nhoavffw7f_nhqm9-zrkiqtz_lmgctgjn8vqq1cb4_ny5hcge8k7rwhnkomy542ynh3fbs1nxcf5edunnpqw6tirvgsug7gztjirod8s9f4f0enoompqzfsiescjcq4edq31he9kufxg9ylwtjgdbe1mx1mwlhsmsjrishdkeu4ughrxtyboam2jidwpqwnudxgoynt8cgfsgrf5mhge2lprdgvdorzdzrlgcvyumvxvk3ck4zg0y0ix0ckxirl-cyuukn7swhqdxmxpibwdv1u37exq_fi42vxdvze_-h_bvfwnmbhy8w_cgra3epnvu2y6xzdwjlyglr8ooo8g3esv4jvr1ksw-dop2iz57p-_hxnscaondhq58wfckgs9pwyqwpx9ic5g-mtbems9p2dmaftyc1l-as_cfmrixytn7p-1l8d2zcel2pfxe9m9lrkhjlkxofq1zwuflvgned9bdv2jffymuxbip3ss_surhljnta4j8oxctrahkhuzwmih2dchlgbvchokjweybjfimlo9oqlahlbkw7kkfnjhxxpvopimyccn6uyka1wwqxxq2xzta6qjlttsxonmsxzrr5u2f12xllsnmyzm5dy9bfsuodgyfgvoqlpza0htrgcjemufns2ndoyx8nusvq3qnquifjhrdwp5lfspswiledbqs0c01jjzx5damuap5grxboyp4xzk_rvydsbgm10myfkvntvd-wn0bb3ot2qe0q7r_znc66fgclf5qiywoer7snjuyb6cp_4jlmzptiitmfiwog4c222xxx03lwxpcmqro%7caplc
+2025-06-26 00:25:24 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:25:24 | ERROR    | retry_with_backoff   | All 1 attempts failed. Final error: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:25:24 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 18.99s: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:25:24 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED - Account won't be used for posts
+2025-06-26 00:25:25 | ERROR    | run_enhanced_facebook_automation | 💥 Error during login for 61571930150364: BrowserContext.close: Target page, context or browser has been closed
+2025-06-26 00:25:25 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN: 61571919171009
+2025-06-26 00:25:26 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:25:26 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571919171009 ===
+2025-06-26 00:25:27 | DEBUG    | human_like_delay     | Human-like delay: 2.31 seconds
+2025-06-26 00:25:30 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:25:30 | DEBUG    | human_like_delay     | Human-like delay: 0.51 seconds
+2025-06-26 00:25:30 | DEBUG    | human_like_delay     | Human-like delay: 0.50 seconds
+2025-06-26 00:25:31 | DEBUG    | human_like_delay     | Human-like delay: 2.64 seconds
+2025-06-26 00:25:33 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:25:37 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodc5nti4lcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-26 00:25:37 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:25:37 | ERROR    | retry_with_backoff   | All 1 attempts failed. Final error: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:25:37 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 10.59s: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:25:37 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED - Account won't be used for posts
+2025-06-26 00:25:37 | ERROR    | run_enhanced_facebook_automation | 💥 Error during login for 61571919171009: BrowserContext.close: Target page, context or browser has been closed
+2025-06-26 00:25:37 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN: 61571926700760
+2025-06-26 00:25:38 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:25:38 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571926700760 ===
+2025-06-26 00:25:41 | DEBUG    | human_like_delay     | Human-like delay: 2.98 seconds
+2025-06-26 00:25:44 | INFO     | login_attempt        | Already logged in
+2025-06-26 00:25:44 | INFO     | enhanced_login_to_facebook | ✅ LOGIN SUCCESS in 6.07s
+2025-06-26 00:25:44 | INFO     | run_enhanced_facebook_automation | ✅ LOGIN SUCCESS - Account will be used for posts
+2025-06-26 00:25:45 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN: 61571935220014
+2025-06-26 00:25:46 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:25:46 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571935220014 ===
+2025-06-26 00:25:47 | DEBUG    | human_like_delay     | Human-like delay: 2.89 seconds
+2025-06-26 00:25:50 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:25:50 | DEBUG    | human_like_delay     | Human-like delay: 1.18 seconds
+2025-06-26 00:25:51 | DEBUG    | human_like_delay     | Human-like delay: 0.87 seconds
+2025-06-26 00:25:55 | DEBUG    | human_like_delay     | Human-like delay: 2.69 seconds
+2025-06-26 00:25:58 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodc5ntq5lcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-26 00:25:58 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:25:58 | ERROR    | retry_with_backoff   | All 1 attempts failed. Final error: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:25:58 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 11.90s: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:25:58 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED - Account won't be used for posts
+2025-06-26 00:25:58 | ERROR    | run_enhanced_facebook_automation | 💥 Error during login for 61571935220014: BrowserContext.close: Target page, context or browser has been closed
+2025-06-26 00:25:58 | INFO     | run_enhanced_facebook_automation | 🔐 ATTEMPTING LOGIN: 61571904081856
+2025-06-26 00:25:59 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:25:59 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571904081856 ===
+2025-06-26 00:26:01 | DEBUG    | human_like_delay     | Human-like delay: 2.10 seconds
+2025-06-26 00:26:03 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:26:03 | DEBUG    | human_like_delay     | Human-like delay: 1.32 seconds
+2025-06-26 00:26:04 | DEBUG    | human_like_delay     | Human-like delay: 1.39 seconds
+2025-06-26 00:26:10 | ERROR    | retry_with_backoff   | All 1 attempts failed. Final error: Target page, context or browser has been closed
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+2025-06-26 00:26:10 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 10.89s: Target page, context or browser has been closed
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+2025-06-26 00:26:10 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED - Account won't be used for posts
+2025-06-26 00:26:11 | INFO     | run_enhanced_facebook_automation | 📝 PROCESSING POST: https://www.facebook.com/share/p/1ZQbJMQ2wW/ FOR ACCOUNT: 61571921690396
+2025-06-26 00:26:17 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571921690396 ===
+2025-06-26 00:26:17 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1ZQbJMQ2wW/
+2025-06-26 00:26:20 | DEBUG    | human_like_delay     | Human-like delay: 4.47 seconds
+2025-06-26 00:26:24 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:26:24 | DEBUG    | human_like_delay     | Human-like delay: 1.41 seconds
+2025-06-26 00:26:26 | INFO     | like_attempt         | ✅ Like successful
+2025-06-26 00:26:26 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:26:26 | DEBUG    | human_like_delay     | Human-like delay: 1.39 seconds
+2025-06-26 00:26:28 | DEBUG    | human_like_delay     | Human-like delay: 1.21 seconds
+2025-06-26 00:26:29 | INFO     | comment_attempt      | ✅ Comment successful: 'Awesome!'
+2025-06-26 00:26:29 | INFO     | enhanced_like_comment_post | 🎉 Successfully liked and commented in 12.23s
+2025-06-26 00:26:29 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS
+2025-06-26 00:26:30 | ERROR    | run_enhanced_facebook_automation | 💥 Error closing browser for 61571921690396: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:26:30 | ERROR    | main                 | 💥 Fatal error: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:26:30 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:26:30 | INFO     | main                 | 🔚 Script finished
+2025-06-26 00:26:55 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:26:55 | INFO     | load_urls            | Loaded 3 saved post URLs
+2025-06-26 00:26:55 | INFO     | run_enhanced_facebook_automation | 📝 PROCESSING POST: https://www.facebook.com/share/p/1C4FA9mP6T/ FOR ACCOUNT: 61571921690396
+2025-06-26 00:26:59 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571921690396 ===
+2025-06-26 00:26:59 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1C4FA9mP6T/
+2025-06-26 00:27:01 | DEBUG    | human_like_delay     | Human-like delay: 4.68 seconds
+2025-06-26 00:27:06 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:27:06 | DEBUG    | human_like_delay     | Human-like delay: 0.68 seconds
+2025-06-26 00:27:37 | DEBUG    | human_like_delay     | Human-like delay: 1.36 seconds
+2025-06-26 00:28:08 | DEBUG    | human_like_delay     | Human-like delay: 0.77 seconds
+2025-06-26 00:28:39 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:28:39 | DEBUG    | human_like_delay     | Human-like delay: 0.63 seconds
+2025-06-26 00:28:41 | DEBUG    | human_like_delay     | Human-like delay: 0.87 seconds
+2025-06-26 00:28:42 | INFO     | comment_attempt      | ✅ Comment successful: 'Excellent!'
+2025-06-26 00:28:42 | INFO     | enhanced_like_comment_post | 🎉 Successfully commented in 103.14s
+2025-06-26 00:28:42 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS
+2025-06-26 00:28:42 | ERROR    | run_enhanced_facebook_automation | 💥 Error closing browser for 61571921690396: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:28:42 | ERROR    | main                 | 💥 Fatal error: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:28:42 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:28:42 | INFO     | main                 | 🔚 Script finished
+2025-06-26 00:29:41 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:29:41 | INFO     | load_urls            | Loaded 3 saved post URLs
+2025-06-26 00:29:41 | INFO     | run_enhanced_facebook_automation | 📝 PROCESSING POST: https://www.facebook.com/share/p/1ENqtZqdHC/ FOR ACCOUNT: 61571921690396
+2025-06-26 00:29:48 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571921690396 ===
+2025-06-26 00:29:48 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1ENqtZqdHC/
+2025-06-26 00:29:53 | DEBUG    | human_like_delay     | Human-like delay: 4.84 seconds
+2025-06-26 00:29:58 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:29:58 | DEBUG    | human_like_delay     | Human-like delay: 0.85 seconds
+2025-06-26 00:29:59 | INFO     | like_attempt         | ✅ Like successful
+2025-06-26 00:29:59 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:29:59 | DEBUG    | human_like_delay     | Human-like delay: 1.45 seconds
+2025-06-26 00:30:01 | DEBUG    | human_like_delay     | Human-like delay: 1.06 seconds
+2025-06-26 00:30:02 | INFO     | comment_attempt      | ✅ Comment successful: 'Amazing!'
+2025-06-26 00:30:02 | INFO     | enhanced_like_comment_post | 🎉 Successfully liked and commented in 13.99s
+2025-06-26 00:30:02 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS
+2025-06-26 00:30:03 | ERROR    | run_enhanced_facebook_automation | 💥 Error closing browser for 61571921690396: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:30:03 | ERROR    | main                 | 💥 Fatal error: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:30:03 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:30:03 | INFO     | main                 | 🔚 Script finished
+2025-06-26 00:30:25 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:30:25 | INFO     | load_urls            | Loaded 3 saved post URLs
+2025-06-26 00:30:25 | INFO     | run_enhanced_facebook_automation | 📝 PROCESSING POST: https://www.facebook.com/share/p/1ZQbJMQ2wW/ FOR ACCOUNT: 61571926700760
+2025-06-26 00:30:30 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571926700760 ===
+2025-06-26 00:30:30 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1ZQbJMQ2wW/
+2025-06-26 00:30:34 | DEBUG    | human_like_delay     | Human-like delay: 4.07 seconds
+2025-06-26 00:30:38 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:30:38 | DEBUG    | human_like_delay     | Human-like delay: 1.00 seconds
+2025-06-26 00:31:09 | DEBUG    | human_like_delay     | Human-like delay: 0.96 seconds
+2025-06-26 00:31:41 | DEBUG    | human_like_delay     | Human-like delay: 0.51 seconds
+2025-06-26 00:32:11 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:32:11 | DEBUG    | human_like_delay     | Human-like delay: 1.28 seconds
+2025-06-26 00:32:14 | DEBUG    | human_like_delay     | Human-like delay: 1.10 seconds
+2025-06-26 00:32:15 | INFO     | comment_attempt      | ✅ Comment successful: 'Great content!'
+2025-06-26 00:32:15 | INFO     | enhanced_like_comment_post | 🎉 Successfully commented in 105.71s
+2025-06-26 00:32:15 | INFO     | run_enhanced_facebook_automation | 🎉 POST INTERACTION SUCCESS
+2025-06-26 00:32:16 | ERROR    | run_enhanced_facebook_automation | 💥 Error closing browser for 61571926700760: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:32:16 | ERROR    | main                 | 💥 Fatal error: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:32:16 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:32:16 | INFO     | main                 | 🔚 Script finished
+2025-06-26 00:43:53 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:43:53 | INFO     | load_urls            | Loaded 3 saved post URLs
+2025-06-26 00:43:53 | INFO     | run_enhanced_facebook_automation | Starting automation with 6 accounts and 3 post URLs
+2025-06-26 00:43:53 | INFO     | run_enhanced_facebook_automation | Accounts needing login: 0
+2025-06-26 00:43:53 | INFO     | run_enhanced_facebook_automation | Post tasks to process: 2
+2025-06-26 00:43:53 | INFO     | run_enhanced_facebook_automation | 📝 POST PHASE: Processing task 1/2: 61571926700760 -> https://www.facebook.com/share/p/1C4FA9mP6T/
+2025-06-26 00:43:58 | DEBUG    | human_like_delay     | Human-like delay: 2.46 seconds
+2025-06-26 00:44:00 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571926700760 ===
+2025-06-26 00:44:00 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1C4FA9mP6T/
+2025-06-26 00:44:05 | DEBUG    | human_like_delay     | Human-like delay: 4.45 seconds
+2025-06-26 00:44:10 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:44:10 | DEBUG    | human_like_delay     | Human-like delay: 1.34 seconds
+2025-06-26 00:44:41 | DEBUG    | human_like_delay     | Human-like delay: 1.10 seconds
+2025-06-26 00:45:12 | DEBUG    | human_like_delay     | Human-like delay: 1.12 seconds
+2025-06-26 00:45:43 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:45:44 | DEBUG    | human_like_delay     | Human-like delay: 1.24 seconds
+2025-06-26 00:45:47 | DEBUG    | human_like_delay     | Human-like delay: 0.97 seconds
+2025-06-26 00:45:48 | INFO     | comment_attempt      | ✅ Comment successful: 'Great content!'
+2025-06-26 00:45:48 | INFO     | enhanced_like_comment_post | 🎉 Successfully commented in 107.25s
+2025-06-26 00:45:48 | INFO     | run_enhanced_facebook_automation | 🎉 POST SUCCESS: 61571926700760 -> https://www.facebook.com/share/p/1C4FA9mP6T/
+2025-06-26 00:45:48 | ERROR    | run_enhanced_facebook_automation | Error closing browser: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:45:48 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 5.4s before next post...
+2025-06-26 00:45:53 | INFO     | run_enhanced_facebook_automation | 📝 POST PHASE: Processing task 2/2: 61571926700760 -> https://www.facebook.com/share/p/1ENqtZqdHC/
+2025-06-26 00:45:57 | DEBUG    | human_like_delay     | Human-like delay: 3.03 seconds
+2025-06-26 00:46:01 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571926700760 ===
+2025-06-26 00:46:01 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/1ENqtZqdHC/
+2025-06-26 00:46:04 | DEBUG    | human_like_delay     | Human-like delay: 3.66 seconds
+2025-06-26 00:46:08 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:46:08 | DEBUG    | human_like_delay     | Human-like delay: 1.45 seconds
+2025-06-26 00:46:39 | DEBUG    | human_like_delay     | Human-like delay: 0.56 seconds
+2025-06-26 00:47:10 | DEBUG    | human_like_delay     | Human-like delay: 0.77 seconds
+2025-06-26 00:47:41 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:47:41 | DEBUG    | human_like_delay     | Human-like delay: 1.36 seconds
+2025-06-26 00:47:43 | DEBUG    | human_like_delay     | Human-like delay: 1.31 seconds
+2025-06-26 00:47:45 | INFO     | comment_attempt      | ✅ Comment successful: 'Perfect!'
+2025-06-26 00:47:45 | INFO     | enhanced_like_comment_post | 🎉 Successfully commented in 104.22s
+2025-06-26 00:47:45 | INFO     | run_enhanced_facebook_automation | 🎉 POST SUCCESS: 61571926700760 -> https://www.facebook.com/share/p/1ENqtZqdHC/
+2025-06-26 00:47:45 | ERROR    | run_enhanced_facebook_automation | Error closing browser: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:47:45 | INFO     | run_enhanced_facebook_automation | 🏁 AUTOMATION COMPLETED
+2025-06-26 00:47:45 | INFO     | run_enhanced_facebook_automation | Total login attempts: 6
+2025-06-26 00:47:45 | INFO     | run_enhanced_facebook_automation | Successful logins: 2
+2025-06-26 00:47:45 | INFO     | run_enhanced_facebook_automation | Failed logins: 4
+2025-06-26 00:47:45 | INFO     | run_enhanced_facebook_automation | Processed posts: 4
+2025-06-26 00:47:45 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:47:45 | INFO     | main                 | 🔚 Script finished
+2025-06-26 00:48:05 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:48:05 | INFO     | load_urls            | Loaded 3 saved post URLs
+2025-06-26 00:48:05 | INFO     | run_enhanced_facebook_automation | Starting automation with 6 accounts and 3 post URLs
+2025-06-26 00:48:05 | INFO     | run_enhanced_facebook_automation | Accounts needing login: 0
+2025-06-26 00:48:05 | INFO     | run_enhanced_facebook_automation | Post tasks to process: 0
+2025-06-26 00:48:05 | INFO     | run_enhanced_facebook_automation | 🏁 AUTOMATION COMPLETED
+2025-06-26 00:48:05 | INFO     | run_enhanced_facebook_automation | Total login attempts: 6
+2025-06-26 00:48:05 | INFO     | run_enhanced_facebook_automation | Successful logins: 2
+2025-06-26 00:48:05 | INFO     | run_enhanced_facebook_automation | Failed logins: 4
+2025-06-26 00:48:05 | INFO     | run_enhanced_facebook_automation | Processed posts: 6
+2025-06-26 00:48:05 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:48:05 | INFO     | main                 | 🔚 Script finished
+2025-06-26 00:49:04 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:49:04 | INFO     | load_urls            | Loaded 4 saved post URLs
+2025-06-26 00:49:04 | INFO     | run_enhanced_facebook_automation | Starting automation with 6 accounts and 4 post URLs
+2025-06-26 00:49:04 | INFO     | run_enhanced_facebook_automation | Accounts needing login: 0
+2025-06-26 00:49:04 | INFO     | run_enhanced_facebook_automation | Post tasks to process: 2
+2025-06-26 00:49:04 | INFO     | run_enhanced_facebook_automation | 📝 POST PHASE: Processing task 1/2: 61571921690396 -> https://www.facebook.com/share/p/12MJ6MJFxiM/
+2025-06-26 00:49:14 | DEBUG    | human_like_delay     | Human-like delay: 2.52 seconds
+2025-06-26 00:49:16 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571921690396 ===
+2025-06-26 00:49:16 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/12MJ6MJFxiM/
+2025-06-26 00:49:19 | DEBUG    | human_like_delay     | Human-like delay: 4.14 seconds
+2025-06-26 00:49:23 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:49:23 | DEBUG    | human_like_delay     | Human-like delay: 1.36 seconds
+2025-06-26 00:49:25 | INFO     | like_attempt         | ✅ Like successful
+2025-06-26 00:49:25 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:49:25 | DEBUG    | human_like_delay     | Human-like delay: 0.68 seconds
+2025-06-26 00:49:27 | DEBUG    | human_like_delay     | Human-like delay: 1.01 seconds
+2025-06-26 00:49:28 | INFO     | comment_attempt      | ✅ Comment successful: 'Great content!'
+2025-06-26 00:49:28 | INFO     | enhanced_like_comment_post | 🎉 Successfully liked and commented in 11.76s
+2025-06-26 00:49:28 | INFO     | run_enhanced_facebook_automation | 🎉 POST SUCCESS: 61571921690396 -> https://www.facebook.com/share/p/12MJ6MJFxiM/
+2025-06-26 00:49:29 | ERROR    | run_enhanced_facebook_automation | Error closing browser: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:49:29 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 12.4s before next post...
+2025-06-26 00:49:41 | INFO     | run_enhanced_facebook_automation | 📝 POST PHASE: Processing task 2/2: 61571926700760 -> https://www.facebook.com/share/p/12MJ6MJFxiM/
+2025-06-26 00:49:46 | DEBUG    | human_like_delay     | Human-like delay: 2.24 seconds
+2025-06-26 00:49:48 | INFO     | enhanced_like_comment_post | === ENHANCED POST INTERACTION FOR: 61571926700760 ===
+2025-06-26 00:49:48 | INFO     | enhanced_like_comment_post | 🎯 Target URL: https://www.facebook.com/share/p/12MJ6MJFxiM/
+2025-06-26 00:49:51 | DEBUG    | human_like_delay     | Human-like delay: 4.03 seconds
+2025-06-26 00:49:55 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:49:55 | DEBUG    | human_like_delay     | Human-like delay: 0.77 seconds
+2025-06-26 00:50:26 | DEBUG    | human_like_delay     | Human-like delay: 0.96 seconds
+2025-06-26 00:50:57 | DEBUG    | human_like_delay     | Human-like delay: 0.76 seconds
+2025-06-26 00:51:28 | DEBUG    | retry_with_backoff   | Attempt 1/2
+2025-06-26 00:51:28 | DEBUG    | human_like_delay     | Human-like delay: 0.68 seconds
+2025-06-26 00:51:30 | DEBUG    | human_like_delay     | Human-like delay: 0.68 seconds
+2025-06-26 00:51:31 | INFO     | comment_attempt      | ✅ Comment successful: 'Love this!'
+2025-06-26 00:51:31 | INFO     | enhanced_like_comment_post | 🎉 Successfully commented in 102.95s
+2025-06-26 00:51:31 | INFO     | run_enhanced_facebook_automation | 🎉 POST SUCCESS: 61571926700760 -> https://www.facebook.com/share/p/12MJ6MJFxiM/
+2025-06-26 00:51:32 | ERROR    | run_enhanced_facebook_automation | Error closing browser: Event loop is closed! Is Playwright already stopped?
+2025-06-26 00:51:32 | INFO     | run_enhanced_facebook_automation | 🏁 AUTOMATION COMPLETED
+2025-06-26 00:51:32 | INFO     | run_enhanced_facebook_automation | Total login attempts: 6
+2025-06-26 00:51:32 | INFO     | run_enhanced_facebook_automation | Successful logins: 2
+2025-06-26 00:51:32 | INFO     | run_enhanced_facebook_automation | Failed logins: 4
+2025-06-26 00:51:32 | INFO     | run_enhanced_facebook_automation | Processed posts: 6
+2025-06-26 00:51:32 | INFO     | load_accounts        | Loaded 6 accounts
+2025-06-26 00:51:32 | INFO     | main                 | 🔚 Script finished
+2025-06-26 00:52:07 | INFO     | load_accounts        | Loaded 12 accounts
+2025-06-26 00:52:07 | INFO     | load_urls            | Loaded 4 saved post URLs
+2025-06-26 00:52:07 | INFO     | run_enhanced_facebook_automation | Starting automation with 12 accounts and 4 post URLs
+2025-06-26 00:52:07 | INFO     | run_enhanced_facebook_automation | Accounts needing login: 6
+2025-06-26 00:52:07 | INFO     | run_enhanced_facebook_automation | 🔐 LOGIN PHASE: Processing account 1/6: 61571930630584
+2025-06-26 00:52:08 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:52:08 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571930630584 ===
+2025-06-26 00:52:10 | DEBUG    | human_like_delay     | Human-like delay: 2.64 seconds
+2025-06-26 00:52:12 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:52:12 | DEBUG    | human_like_delay     | Human-like delay: 0.68 seconds
+2025-06-26 00:52:13 | DEBUG    | human_like_delay     | Human-like delay: 0.63 seconds
+2025-06-26 00:52:21 | DEBUG    | human_like_delay     | Human-like delay: 2.00 seconds
+2025-06-26 00:52:23 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/auth_platform/codesubmit/?apc=adkvjyfmbhx43qlculqbtpxtsh0054cdu1ymkz9aukyco0g4p1lwvjpfn3wgebeiy0wuyaqtdn41f1yl2d_hnrcestcgpazgxqaxrgixtzdaweuy6extwobipkipuvsvt6tf-_lpc_q9mvfrub4hzzcfazvxgfxpelkcxc906wgvcgxguvbqt8wp9hmiuphqlgt4lhbrm24jceus4bwwbokshraitel6pgs6bqfo52eprdqzjs4hhxopc6q_zo1zjzelpiy1f6lgfp_rzpmvgpggph9plgwipztplngeuhpvs2qujuhv7zvdcgmegqrjy1c117pfj0ou7ldtf2yvee_lqzyf4c6qlixrpvxmxav6erqodzjanx10idmbzbik7nswupgzpafgcgrfz5k2hpyk6jfrmmkfjhyqmephs6jsvuh4sczlyq1lxavlrrhwvvlcyeltc-jwozbq4h7tnuzvmivhldfszyiaqlh9lnkcq0yh9r3wa6xlzrgpzegr1rx9mvoy9prk9nbjuoxtt-kunhjpjwuldcrhgvqpemorgeh1sdcyne00csg9uuubuhoumo4fvi_okotwxd7y4fxoumte2w4mkf2uxa0pavibuiu5rtczqbtozroxvnlkhpdmcyigtw3xbu9sylmefjpi8iayfkbgtpupduq6wkulqe9gg2thrus_drb3a35do9xmkh6bqcuukfcjeykny0b6jhpn8nnrucmszvci97djcjvcitfvy0mpwh-dsfx1qocifznwl9ynm7dsf9z8dz_rahp7kwaupg67ix1t73xwsymazk-ojnczqggfctf0cckhslxvagaet-41ovv3rj6rjpo0p85iyykbtflqcymxpvvtmdcairkgqtnlc3xbfh0snbxfrzln1uaquyysdlqejew_i9yhecz6dqsu1kyychigoyapv_4iaowhyle6qpipusoc02zyvoh3mrsfodjclflmcwyt5sstilkiamwyuamsakeurizf-a8wvsqru4dkiedgvjqn-ayjr9nmm_v8fufopwblwibrgbii7tnngqb9fs-wzqox6tg0i_vv3yp-jddb7edhapuznfb7w9pxgfkg6ww1kxnvtacjxyb3usyktsnqvnz-d5r1ryeiea5nw_-slyzkz1sgtelzwvdaly96-vx3sf577xxkfpunswntpxfx7zfwjwrve3azkhdkopqxlvlyxjvkd1nahpzy1tmne64zbxfuavpfc1n6nvnwgcapr_gvsmziib5yct0nhqg06ibyhego7itzjk2_39ih83tunnfghi4aygqgtee0om5whn7wc4s5y_h9f13kkw0bqj9ojk1o5l78iwdwrst_suh6i_ecuwid3yx0q-yygihbx_8ilmawwfk1gy-oixm6jogi0ur2dfe72jawu1il8zrcg0acmbzqkevnfvchibu%7caplc
+2025-06-26 00:52:26 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/auth_platform/codesubmit/?apc=adkvjyfmbhx43qlculqbtpxtsh0054cdu1ymkz9aukyco0g4p1lwvjpfn3wgebeiy0wuyaqtdn41f1yl2d_hnrcestcgpazgxqaxrgixtzdaweuy6extwobipkipuvsvt6tf-_lpc_q9mvfrub4hzzcfazvxgfxpelkcxc906wgvcgxguvbqt8wp9hmiuphqlgt4lhbrm24jceus4bwwbokshraitel6pgs6bqfo52eprdqzjs4hhxopc6q_zo1zjzelpiy1f6lgfp_rzpmvgpggph9plgwipztplngeuhpvs2qujuhv7zvdcgmegqrjy1c117pfj0ou7ldtf2yvee_lqzyf4c6qlixrpvxmxav6erqodzjanx10idmbzbik7nswupgzpafgcgrfz5k2hpyk6jfrmmkfjhyqmephs6jsvuh4sczlyq1lxavlrrhwvvlcyeltc-jwozbq4h7tnuzvmivhldfszyiaqlh9lnkcq0yh9r3wa6xlzrgpzegr1rx9mvoy9prk9nbjuoxtt-kunhjpjwuldcrhgvqpemorgeh1sdcyne00csg9uuubuhoumo4fvi_okotwxd7y4fxoumte2w4mkf2uxa0pavibuiu5rtczqbtozroxvnlkhpdmcyigtw3xbu9sylmefjpi8iayfkbgtpupduq6wkulqe9gg2thrus_drb3a35do9xmkh6bqcuukfcjeykny0b6jhpn8nnrucmszvci97djcjvcitfvy0mpwh-dsfx1qocifznwl9ynm7dsf9z8dz_rahp7kwaupg67ix1t73xwsymazk-ojnczqggfctf0cckhslxvagaet-41ovv3rj6rjpo0p85iyykbtflqcymxpvvtmdcairkgqtnlc3xbfh0snbxfrzln1uaquyysdlqejew_i9yhecz6dqsu1kyychigoyapv_4iaowhyle6qpipusoc02zyvoh3mrsfodjclflmcwyt5sstilkiamwyuamsakeurizf-a8wvsqru4dkiedgvjqn-ayjr9nmm_v8fufopwblwibrgbii7tnngqb9fs-wzqox6tg0i_vv3yp-jddb7edhapuznfb7w9pxgfkg6ww1kxnvtacjxyb3usyktsnqvnz-d5r1ryeiea5nw_-slyzkz1sgtelzwvdaly96-vx3sf577xxkfpunswntpxfx7zfwjwrve3azkhdkopqxlvlyxjvkd1nahpzy1tmne64zbxfuavpfc1n6nvnwgcapr_gvsmziib5yct0nhqg06ibyhego7itzjk2_39ih83tunnfghi4aygqgtee0om5whn7wc4s5y_h9f13kkw0bqj9ojk1o5l78iwdwrst_suh6i_ecuwid3yx0q-yygihbx_8ilmawwfk1gy-oixm6jogi0ur2dfe72jawu1il8zrcg0acmbzqkevnfvchibu%7caplc
+2025-06-26 00:52:29 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/auth_platform/codesubmit/?apc=adkvjyfmbhx43qlculqbtpxtsh0054cdu1ymkz9aukyco0g4p1lwvjpfn3wgebeiy0wuyaqtdn41f1yl2d_hnrcestcgpazgxqaxrgixtzdaweuy6extwobipkipuvsvt6tf-_lpc_q9mvfrub4hzzcfazvxgfxpelkcxc906wgvcgxguvbqt8wp9hmiuphqlgt4lhbrm24jceus4bwwbokshraitel6pgs6bqfo52eprdqzjs4hhxopc6q_zo1zjzelpiy1f6lgfp_rzpmvgpggph9plgwipztplngeuhpvs2qujuhv7zvdcgmegqrjy1c117pfj0ou7ldtf2yvee_lqzyf4c6qlixrpvxmxav6erqodzjanx10idmbzbik7nswupgzpafgcgrfz5k2hpyk6jfrmmkfjhyqmephs6jsvuh4sczlyq1lxavlrrhwvvlcyeltc-jwozbq4h7tnuzvmivhldfszyiaqlh9lnkcq0yh9r3wa6xlzrgpzegr1rx9mvoy9prk9nbjuoxtt-kunhjpjwuldcrhgvqpemorgeh1sdcyne00csg9uuubuhoumo4fvi_okotwxd7y4fxoumte2w4mkf2uxa0pavibuiu5rtczqbtozroxvnlkhpdmcyigtw3xbu9sylmefjpi8iayfkbgtpupduq6wkulqe9gg2thrus_drb3a35do9xmkh6bqcuukfcjeykny0b6jhpn8nnrucmszvci97djcjvcitfvy0mpwh-dsfx1qocifznwl9ynm7dsf9z8dz_rahp7kwaupg67ix1t73xwsymazk-ojnczqggfctf0cckhslxvagaet-41ovv3rj6rjpo0p85iyykbtflqcymxpvvtmdcairkgqtnlc3xbfh0snbxfrzln1uaquyysdlqejew_i9yhecz6dqsu1kyychigoyapv_4iaowhyle6qpipusoc02zyvoh3mrsfodjclflmcwyt5sstilkiamwyuamsakeurizf-a8wvsqru4dkiedgvjqn-ayjr9nmm_v8fufopwblwibrgbii7tnngqb9fs-wzqox6tg0i_vv3yp-jddb7edhapuznfb7w9pxgfkg6ww1kxnvtacjxyb3usyktsnqvnz-d5r1ryeiea5nw_-slyzkz1sgtelzwvdaly96-vx3sf577xxkfpunswntpxfx7zfwjwrve3azkhdkopqxlvlyxjvkd1nahpzy1tmne64zbxfuavpfc1n6nvnwgcapr_gvsmziib5yct0nhqg06ibyhego7itzjk2_39ih83tunnfghi4aygqgtee0om5whn7wc4s5y_h9f13kkw0bqj9ojk1o5l78iwdwrst_suh6i_ecuwid3yx0q-yygihbx_8ilmawwfk1gy-oixm6jogi0ur2dfe72jawu1il8zrcg0acmbzqkevnfvchibu%7caplc
+2025-06-26 00:52:29 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:52:29 | ERROR    | retry_with_backoff   | All 1 attempts failed. Final error: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:52:29 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 21.07s: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:52:29 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED for 61571930630584
+2025-06-26 00:52:29 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 28.8s before next account...
+2025-06-26 00:52:58 | INFO     | run_enhanced_facebook_automation | 🔐 LOGIN PHASE: Processing account 2/6: 61571875163120
+2025-06-26 00:52:59 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:52:59 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571875163120 ===
+2025-06-26 00:53:02 | DEBUG    | human_like_delay     | Human-like delay: 2.86 seconds
+2025-06-26 00:53:05 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:53:05 | DEBUG    | human_like_delay     | Human-like delay: 1.43 seconds
+2025-06-26 00:53:07 | DEBUG    | human_like_delay     | Human-like delay: 0.54 seconds
+2025-06-26 00:53:11 | DEBUG    | human_like_delay     | Human-like delay: 2.39 seconds
+2025-06-26 00:53:13 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/two_step_verification/authentication/?encrypted_context=arechkp_wcgfnlhmuq2t56vp5brhdcavfdozmkdbc3vm2pt-hgatlacdtctr_mnl5gfkikmoaav18e6bor0k0fpdhcux7gwmqzd45rbaxovcr2qdnxd_feu-n42g4sxifmpaju3ufpovpdmfgkwfjwjsrxbw0mkei3icufl5fmtysiltvo-452ophwigtr3gqywhjace4rcyorlpgrelsw425ob2uh49ttdjnx2wbqkjd2blgrha_pmirmzgjf860cwkjb5vn4jtcodoceulfeskl9pzcf3r-qmjobcxqt_bq_9ep7-mhwntmkzuizihghzd8kn26o3aferqrb1ntq936wrlqacm5r80rfaryre7s309nncwuvxcqn-qw5mh8w2hn0oivej05clyhxie46-cje6m8klgq2bhk1ga3c-e4dlt-z66nxyvzxs8hvsk4gff54yqh8m7w95tyhl_ri4wcl7muag0a9urspnjgp-cdmehywmkzrm7hw4v2v7stesqev9ytjcxcbiedo6u4k9ifbnh97rg4raktepl8fckqsvhfoz391yll5fuknfxbsmu_hcc2or2-cytux_cnhttx8yewtivrpmsbnkobyxncxpw0-pebgrpwmhwwigymmedq0vn7q4x0yap13zxcw35xfbofugqoebdzylphqid5epmqhhh5ule66eobzaxj2w5zgntc4ewvzujoi5l8cxzw8qnlt-xstdq2_pssd5oem3lssjhuflkzokef0dilooc0kymjv0bpf76w0k_lzpjvxgskmeuraoht8zsrwgfrv62g4fc-9bgewfjcyzk0dvlfxf2mxnze0nuft1gj1j3uaddpyn7oulx4fvan1gbcwgyqxjsjbbmcs3wbc4ywwm7ynug5gnukclx&flow=pre_authentication&next
+2025-06-26 00:53:16 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/two_step_verification/authentication/?encrypted_context=arechkp_wcgfnlhmuq2t56vp5brhdcavfdozmkdbc3vm2pt-hgatlacdtctr_mnl5gfkikmoaav18e6bor0k0fpdhcux7gwmqzd45rbaxovcr2qdnxd_feu-n42g4sxifmpaju3ufpovpdmfgkwfjwjsrxbw0mkei3icufl5fmtysiltvo-452ophwigtr3gqywhjace4rcyorlpgrelsw425ob2uh49ttdjnx2wbqkjd2blgrha_pmirmzgjf860cwkjb5vn4jtcodoceulfeskl9pzcf3r-qmjobcxqt_bq_9ep7-mhwntmkzuizihghzd8kn26o3aferqrb1ntq936wrlqacm5r80rfaryre7s309nncwuvxcqn-qw5mh8w2hn0oivej05clyhxie46-cje6m8klgq2bhk1ga3c-e4dlt-z66nxyvzxs8hvsk4gff54yqh8m7w95tyhl_ri4wcl7muag0a9urspnjgp-cdmehywmkzrm7hw4v2v7stesqev9ytjcxcbiedo6u4k9ifbnh97rg4raktepl8fckqsvhfoz391yll5fuknfxbsmu_hcc2or2-cytux_cnhttx8yewtivrpmsbnkobyxncxpw0-pebgrpwmhwwigymmedq0vn7q4x0yap13zxcw35xfbofugqoebdzylphqid5epmqhhh5ule66eobzaxj2w5zgntc4ewvzujoi5l8cxzw8qnlt-xstdq2_pssd5oem3lssjhuflkzokef0dilooc0kymjv0bpf76w0k_lzpjvxgskmeuraoht8zsrwgfrv62g4fc-9bgewfjcyzk0dvlfxf2mxnze0nuft1gj1j3uaddpyn7oulx4fvan1gbcwgyqxjsjbbmcs3wbc4ywwm7ynug5gnukclx&flow=pre_authentication&next
+2025-06-26 00:53:19 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/two_step_verification/authentication/?encrypted_context=arechkp_wcgfnlhmuq2t56vp5brhdcavfdozmkdbc3vm2pt-hgatlacdtctr_mnl5gfkikmoaav18e6bor0k0fpdhcux7gwmqzd45rbaxovcr2qdnxd_feu-n42g4sxifmpaju3ufpovpdmfgkwfjwjsrxbw0mkei3icufl5fmtysiltvo-452ophwigtr3gqywhjace4rcyorlpgrelsw425ob2uh49ttdjnx2wbqkjd2blgrha_pmirmzgjf860cwkjb5vn4jtcodoceulfeskl9pzcf3r-qmjobcxqt_bq_9ep7-mhwntmkzuizihghzd8kn26o3aferqrb1ntq936wrlqacm5r80rfaryre7s309nncwuvxcqn-qw5mh8w2hn0oivej05clyhxie46-cje6m8klgq2bhk1ga3c-e4dlt-z66nxyvzxs8hvsk4gff54yqh8m7w95tyhl_ri4wcl7muag0a9urspnjgp-cdmehywmkzrm7hw4v2v7stesqev9ytjcxcbiedo6u4k9ifbnh97rg4raktepl8fckqsvhfoz391yll5fuknfxbsmu_hcc2or2-cytux_cnhttx8yewtivrpmsbnkobyxncxpw0-pebgrpwmhwwigymmedq0vn7q4x0yap13zxcw35xfbofugqoebdzylphqid5epmqhhh5ule66eobzaxj2w5zgntc4ewvzujoi5l8cxzw8qnlt-xstdq2_pssd5oem3lssjhuflkzokef0dilooc0kymjv0bpf76w0k_lzpjvxgskmeuraoht8zsrwgfrv62g4fc-9bgewfjcyzk0dvlfxf2mxnze0nuft1gj1j3uaddpyn7oulx4fvan1gbcwgyqxjsjbbmcs3wbc4ywwm7ynug5gnukclx&flow=pre_authentication&next
+2025-06-26 00:53:22 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/two_step_verification/authentication/?encrypted_context=arechkp_wcgfnlhmuq2t56vp5brhdcavfdozmkdbc3vm2pt-hgatlacdtctr_mnl5gfkikmoaav18e6bor0k0fpdhcux7gwmqzd45rbaxovcr2qdnxd_feu-n42g4sxifmpaju3ufpovpdmfgkwfjwjsrxbw0mkei3icufl5fmtysiltvo-452ophwigtr3gqywhjace4rcyorlpgrelsw425ob2uh49ttdjnx2wbqkjd2blgrha_pmirmzgjf860cwkjb5vn4jtcodoceulfeskl9pzcf3r-qmjobcxqt_bq_9ep7-mhwntmkzuizihghzd8kn26o3aferqrb1ntq936wrlqacm5r80rfaryre7s309nncwuvxcqn-qw5mh8w2hn0oivej05clyhxie46-cje6m8klgq2bhk1ga3c-e4dlt-z66nxyvzxs8hvsk4gff54yqh8m7w95tyhl_ri4wcl7muag0a9urspnjgp-cdmehywmkzrm7hw4v2v7stesqev9ytjcxcbiedo6u4k9ifbnh97rg4raktepl8fckqsvhfoz391yll5fuknfxbsmu_hcc2or2-cytux_cnhttx8yewtivrpmsbnkobyxncxpw0-pebgrpwmhwwigymmedq0vn7q4x0yap13zxcw35xfbofugqoebdzylphqid5epmqhhh5ule66eobzaxj2w5zgntc4ewvzujoi5l8cxzw8qnlt-xstdq2_pssd5oem3lssjhuflkzokef0dilooc0kymjv0bpf76w0k_lzpjvxgskmeuraoht8zsrwgfrv62g4fc-9bgewfjcyzk0dvlfxf2mxnze0nuft1gj1j3uaddpyn7oulx4fvan1gbcwgyqxjsjbbmcs3wbc4ywwm7ynug5gnukclx&flow=pre_authentication&next
+2025-06-26 00:53:25 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/two_step_verification/authentication/?encrypted_context=arechkp_wcgfnlhmuq2t56vp5brhdcavfdozmkdbc3vm2pt-hgatlacdtctr_mnl5gfkikmoaav18e6bor0k0fpdhcux7gwmqzd45rbaxovcr2qdnxd_feu-n42g4sxifmpaju3ufpovpdmfgkwfjwjsrxbw0mkei3icufl5fmtysiltvo-452ophwigtr3gqywhjace4rcyorlpgrelsw425ob2uh49ttdjnx2wbqkjd2blgrha_pmirmzgjf860cwkjb5vn4jtcodoceulfeskl9pzcf3r-qmjobcxqt_bq_9ep7-mhwntmkzuizihghzd8kn26o3aferqrb1ntq936wrlqacm5r80rfaryre7s309nncwuvxcqn-qw5mh8w2hn0oivej05clyhxie46-cje6m8klgq2bhk1ga3c-e4dlt-z66nxyvzxs8hvsk4gff54yqh8m7w95tyhl_ri4wcl7muag0a9urspnjgp-cdmehywmkzrm7hw4v2v7stesqev9ytjcxcbiedo6u4k9ifbnh97rg4raktepl8fckqsvhfoz391yll5fuknfxbsmu_hcc2or2-cytux_cnhttx8yewtivrpmsbnkobyxncxpw0-pebgrpwmhwwigymmedq0vn7q4x0yap13zxcw35xfbofugqoebdzylphqid5epmqhhh5ule66eobzaxj2w5zgntc4ewvzujoi5l8cxzw8qnlt-xstdq2_pssd5oem3lssjhuflkzokef0dilooc0kymjv0bpf76w0k_lzpjvxgskmeuraoht8zsrwgfrv62g4fc-9bgewfjcyzk0dvlfxf2mxnze0nuft1gj1j3uaddpyn7oulx4fvan1gbcwgyqxjsjbbmcs3wbc4ywwm7ynug5gnukclx&flow=pre_authentication&next
+2025-06-26 00:53:28 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/two_step_verification/authentication/?encrypted_context=arechkp_wcgfnlhmuq2t56vp5brhdcavfdozmkdbc3vm2pt-hgatlacdtctr_mnl5gfkikmoaav18e6bor0k0fpdhcux7gwmqzd45rbaxovcr2qdnxd_feu-n42g4sxifmpaju3ufpovpdmfgkwfjwjsrxbw0mkei3icufl5fmtysiltvo-452ophwigtr3gqywhjace4rcyorlpgrelsw425ob2uh49ttdjnx2wbqkjd2blgrha_pmirmzgjf860cwkjb5vn4jtcodoceulfeskl9pzcf3r-qmjobcxqt_bq_9ep7-mhwntmkzuizihghzd8kn26o3aferqrb1ntq936wrlqacm5r80rfaryre7s309nncwuvxcqn-qw5mh8w2hn0oivej05clyhxie46-cje6m8klgq2bhk1ga3c-e4dlt-z66nxyvzxs8hvsk4gff54yqh8m7w95tyhl_ri4wcl7muag0a9urspnjgp-cdmehywmkzrm7hw4v2v7stesqev9ytjcxcbiedo6u4k9ifbnh97rg4raktepl8fckqsvhfoz391yll5fuknfxbsmu_hcc2or2-cytux_cnhttx8yewtivrpmsbnkobyxncxpw0-pebgrpwmhwwigymmedq0vn7q4x0yap13zxcw35xfbofugqoebdzylphqid5epmqhhh5ule66eobzaxj2w5zgntc4ewvzujoi5l8cxzw8qnlt-xstdq2_pssd5oem3lssjhuflkzokef0dilooc0kymjv0bpf76w0k_lzpjvxgskmeuraoht8zsrwgfrv62g4fc-9bgewfjcyzk0dvlfxf2mxnze0nuft1gj1j3uaddpyn7oulx4fvan1gbcwgyqxjsjbbmcs3wbc4ywwm7ynug5gnukclx&flow=pre_authentication&next
+2025-06-26 00:53:31 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/two_step_verification/authentication/?encrypted_context=arechkp_wcgfnlhmuq2t56vp5brhdcavfdozmkdbc3vm2pt-hgatlacdtctr_mnl5gfkikmoaav18e6bor0k0fpdhcux7gwmqzd45rbaxovcr2qdnxd_feu-n42g4sxifmpaju3ufpovpdmfgkwfjwjsrxbw0mkei3icufl5fmtysiltvo-452ophwigtr3gqywhjace4rcyorlpgrelsw425ob2uh49ttdjnx2wbqkjd2blgrha_pmirmzgjf860cwkjb5vn4jtcodoceulfeskl9pzcf3r-qmjobcxqt_bq_9ep7-mhwntmkzuizihghzd8kn26o3aferqrb1ntq936wrlqacm5r80rfaryre7s309nncwuvxcqn-qw5mh8w2hn0oivej05clyhxie46-cje6m8klgq2bhk1ga3c-e4dlt-z66nxyvzxs8hvsk4gff54yqh8m7w95tyhl_ri4wcl7muag0a9urspnjgp-cdmehywmkzrm7hw4v2v7stesqev9ytjcxcbiedo6u4k9ifbnh97rg4raktepl8fckqsvhfoz391yll5fuknfxbsmu_hcc2or2-cytux_cnhttx8yewtivrpmsbnkobyxncxpw0-pebgrpwmhwwigymmedq0vn7q4x0yap13zxcw35xfbofugqoebdzylphqid5epmqhhh5ule66eobzaxj2w5zgntc4ewvzujoi5l8cxzw8qnlt-xstdq2_pssd5oem3lssjhuflkzokef0dilooc0kymjv0bpf76w0k_lzpjvxgskmeuraoht8zsrwgfrv62g4fc-9bgewfjcyzk0dvlfxf2mxnze0nuft1gj1j3uaddpyn7oulx4fvan1gbcwgyqxjsjbbmcs3wbc4ywwm7ynug5gnukclx&flow=pre_authentication&next
+2025-06-26 00:53:34 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/two_step_verification/authentication/?encrypted_context=arechkp_wcgfnlhmuq2t56vp5brhdcavfdozmkdbc3vm2pt-hgatlacdtctr_mnl5gfkikmoaav18e6bor0k0fpdhcux7gwmqzd45rbaxovcr2qdnxd_feu-n42g4sxifmpaju3ufpovpdmfgkwfjwjsrxbw0mkei3icufl5fmtysiltvo-452ophwigtr3gqywhjace4rcyorlpgrelsw425ob2uh49ttdjnx2wbqkjd2blgrha_pmirmzgjf860cwkjb5vn4jtcodoceulfeskl9pzcf3r-qmjobcxqt_bq_9ep7-mhwntmkzuizihghzd8kn26o3aferqrb1ntq936wrlqacm5r80rfaryre7s309nncwuvxcqn-qw5mh8w2hn0oivej05clyhxie46-cje6m8klgq2bhk1ga3c-e4dlt-z66nxyvzxs8hvsk4gff54yqh8m7w95tyhl_ri4wcl7muag0a9urspnjgp-cdmehywmkzrm7hw4v2v7stesqev9ytjcxcbiedo6u4k9ifbnh97rg4raktepl8fckqsvhfoz391yll5fuknfxbsmu_hcc2or2-cytux_cnhttx8yewtivrpmsbnkobyxncxpw0-pebgrpwmhwwigymmedq0vn7q4x0yap13zxcw35xfbofugqoebdzylphqid5epmqhhh5ule66eobzaxj2w5zgntc4ewvzujoi5l8cxzw8qnlt-xstdq2_pssd5oem3lssjhuflkzokef0dilooc0kymjv0bpf76w0k_lzpjvxgskmeuraoht8zsrwgfrv62g4fc-9bgewfjcyzk0dvlfxf2mxnze0nuft1gj1j3uaddpyn7oulx4fvan1gbcwgyqxjsjbbmcs3wbc4ywwm7ynug5gnukclx&flow=pre_authentication&next
+2025-06-26 00:53:38 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/web/?cuid=ayi0ujd9r-3jnwbnzgwki-tgr2lglf4q8atvzz-8zzsciihugan8tz1yjrzisgilxvot4cp6nuqh58psbjjpytmqeti7aqgujs9k1eh7pwnesg&e=1348092
+2025-06-26 00:53:41 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/web/?cuid=ayi0ujd9r-3jnwbnzgwki-tgr2lglf4q8atvzz-8zzsciihugan8tz1yjrzisgilxvot4cp6nuqh58psbjjpytmqeti7aqgujs9k1eh7pwnesg&e=1348092
+2025-06-26 00:53:41 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:53:41 | ERROR    | retry_with_backoff   | All 1 attempts failed. Final error: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:53:41 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 41.56s: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:53:41 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED for 61571875163120
+2025-06-26 00:53:41 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 18.8s before next account...
+2025-06-26 00:53:59 | INFO     | run_enhanced_facebook_automation | 🔐 LOGIN PHASE: Processing account 3/6: 61571876063336
+2025-06-26 00:54:01 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:54:01 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571876063336 ===
+2025-06-26 00:54:02 | DEBUG    | human_like_delay     | Human-like delay: 1.75 seconds
+2025-06-26 00:54:04 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:54:04 | DEBUG    | human_like_delay     | Human-like delay: 0.69 seconds
+2025-06-26 00:54:05 | DEBUG    | human_like_delay     | Human-like delay: 0.77 seconds
+2025-06-26 00:54:14 | DEBUG    | human_like_delay     | Human-like delay: 2.18 seconds
+2025-06-26 00:54:16 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/auth_platform/afad/?apc=adm-nfgvphianafiorbpahtoylk1kyzqsg796pmy_g_safxi3bu5d3sb7k6v-pzpq34mlhrbxy23hwpcgtrzc6xhnqbx1otj-rjz_r-p48ijwnzohcbozbklqvzvwq-pudqcctal9f1foc4o60sevjhgcaacvwhmhr6bylzguquawqicgh3yjllp8lgve2-wazoh9t7i8xpglurlkpjc2fvi-ob9_vm8fuispajchxl8nldpxwtpb16mrwjjy_nsclr_gvfcjzj9-7czzh7nxqonmwmkwjui-6pjsmipomxgtm5-qrag1xia1anpwg8ovmpsegg23b2ciajtye21stju0_ckxeru8wx19qayyerbfl2pj-ew8jozmpjyygohnpfyzvzjufph5zgufwmg99u0ft-abmjefekeotibwny6ar7vu_zjuvojbzy_e3jutcgxrl0uypbs54ztn1kv2tika9mfxxpzfgayp3xyaq-fp4rwksy1akf3jwd3pw8jhvjspgdyx_us_na-uieltiq6anwttcdq3ucxzjewzmutpsukuj0xjljmsu2w-uwei-raqvoka2y6md1m8ovw7pslil6508zveq9wy0nw5tk5npiepmvt0m5sjt2h4dtwmlpm96djtaelus2xxl5vcjkac18cjbku39sb65ap0fss-pmrdlwwyteae7ojmczsvugvt2pxavtxhgv9wcnfxiuzekhkwc6tjlseczakis12j3bcvietqivoufaejd0bn7-8u8tvao5rbqf_eq6nso15jwol4g0eegp-grxaubxg-rul5pcnjuzcfn4fkmfvvoj1avi6lqlrofb5tiic1hb8v69ecd7uo1nlusbma0sl_zh83b7p1msngokglqf6xckiifftvtbld4m4sghtayavflpd9fqpolcittvca6b24uyxsbuhsimj40xhwmf8wbhb0oymcghbqy6he5nhbduxtscivdm0epcivk72cuvhsmsu0xkft_46_ptjmruype547xlbhbjmeip956divcdxyaq9pfvhabufvyqvufejbadvmrp7awhwwtkdl-4kxfzm-7fnibjqshzhjxsm3cqz0zdsbqhgdnyeh6rf4nnj0ev4tlczgmjraksn_o6cin83ewflwanfz88okds9ynegl5dndulavkrdjg3vr_k0yrqltghp93okxemh6qtr4hq5fecjyyuoc1begysfrogn1w_eely9jhkux3mvi5pofti4leilnbbk3hfvksu1vrgupn8brtvlc1vt-w-strxr3gw38mrlrt-9inxhf1hnzkpp%7caplc
+2025-06-26 00:54:19 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/auth_platform/afad/?apc=adm-nfgvphianafiorbpahtoylk1kyzqsg796pmy_g_safxi3bu5d3sb7k6v-pzpq34mlhrbxy23hwpcgtrzc6xhnqbx1otj-rjz_r-p48ijwnzohcbozbklqvzvwq-pudqcctal9f1foc4o60sevjhgcaacvwhmhr6bylzguquawqicgh3yjllp8lgve2-wazoh9t7i8xpglurlkpjc2fvi-ob9_vm8fuispajchxl8nldpxwtpb16mrwjjy_nsclr_gvfcjzj9-7czzh7nxqonmwmkwjui-6pjsmipomxgtm5-qrag1xia1anpwg8ovmpsegg23b2ciajtye21stju0_ckxeru8wx19qayyerbfl2pj-ew8jozmpjyygohnpfyzvzjufph5zgufwmg99u0ft-abmjefekeotibwny6ar7vu_zjuvojbzy_e3jutcgxrl0uypbs54ztn1kv2tika9mfxxpzfgayp3xyaq-fp4rwksy1akf3jwd3pw8jhvjspgdyx_us_na-uieltiq6anwttcdq3ucxzjewzmutpsukuj0xjljmsu2w-uwei-raqvoka2y6md1m8ovw7pslil6508zveq9wy0nw5tk5npiepmvt0m5sjt2h4dtwmlpm96djtaelus2xxl5vcjkac18cjbku39sb65ap0fss-pmrdlwwyteae7ojmczsvugvt2pxavtxhgv9wcnfxiuzekhkwc6tjlseczakis12j3bcvietqivoufaejd0bn7-8u8tvao5rbqf_eq6nso15jwol4g0eegp-grxaubxg-rul5pcnjuzcfn4fkmfvvoj1avi6lqlrofb5tiic1hb8v69ecd7uo1nlusbma0sl_zh83b7p1msngokglqf6xckiifftvtbld4m4sghtayavflpd9fqpolcittvca6b24uyxsbuhsimj40xhwmf8wbhb0oymcghbqy6he5nhbduxtscivdm0epcivk72cuvhsmsu0xkft_46_ptjmruype547xlbhbjmeip956divcdxyaq9pfvhabufvyqvufejbadvmrp7awhwwtkdl-4kxfzm-7fnibjqshzhjxsm3cqz0zdsbqhgdnyeh6rf4nnj0ev4tlczgmjraksn_o6cin83ewflwanfz88okds9ynegl5dndulavkrdjg3vr_k0yrqltghp93okxemh6qtr4hq5fecjyyuoc1begysfrogn1w_eely9jhkux3mvi5pofti4leilnbbk3hfvksu1vrgupn8brtvlc1vt-w-strxr3gw38mrlrt-9inxhf1hnzkpp%7caplc
+2025-06-26 00:54:19 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:54:19 | ERROR    | retry_with_backoff   | All 1 attempts failed. Final error: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:54:19 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 18.48s: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:54:19 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED for 61571876063336
+2025-06-26 00:54:19 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 27.2s before next account...
+2025-06-26 00:54:46 | INFO     | run_enhanced_facebook_automation | 🔐 LOGIN PHASE: Processing account 4/6: 61571871683347
+2025-06-26 00:54:48 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:54:48 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571871683347 ===
+2025-06-26 00:54:49 | DEBUG    | human_like_delay     | Human-like delay: 2.64 seconds
+2025-06-26 00:54:52 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:54:52 | DEBUG    | human_like_delay     | Human-like delay: 0.57 seconds
+2025-06-26 00:54:53 | DEBUG    | human_like_delay     | Human-like delay: 0.87 seconds
+2025-06-26 00:54:58 | DEBUG    | human_like_delay     | Human-like delay: 3.02 seconds
+2025-06-26 00:55:01 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/checkpoint/disabled/?next
+2025-06-26 00:55:01 | WARNING  | handle_facebook_security_challenges | 🔒 CHECKPOINT DETECTED - Manual intervention required
+2025-06-26 00:55:23 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: User skipped checkpoint
+2025-06-26 00:55:26 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/checkpoint/dyi/?referrer=disabled_checkpoint
+2025-06-26 00:55:26 | WARNING  | handle_facebook_security_challenges | 🔒 CHECKPOINT DETECTED - Manual intervention required
+2025-06-26 00:55:39 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: User skipped checkpoint
+2025-06-26 00:55:39 | ERROR    | retry_with_backoff   | All 1 attempts failed. Final error: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:55:39 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 51.68s: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:55:39 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED for 61571871683347
+2025-06-26 00:55:40 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 10.5s before next account...
+2025-06-26 00:55:50 | INFO     | run_enhanced_facebook_automation | 🔐 LOGIN PHASE: Processing account 5/6: 61571869733113
+2025-06-26 00:55:51 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:55:51 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571869733113 ===
+2025-06-26 00:55:53 | DEBUG    | human_like_delay     | Human-like delay: 1.14 seconds
+2025-06-26 00:55:54 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:55:54 | DEBUG    | human_like_delay     | Human-like delay: 1.28 seconds
+2025-06-26 00:55:55 | DEBUG    | human_like_delay     | Human-like delay: 1.10 seconds
+2025-06-26 00:56:06 | DEBUG    | human_like_delay     | Human-like delay: 2.79 seconds
+2025-06-26 00:56:08 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/auth_platform/codesubmit/?apc=adn132pw7kws9jp9-tsh5ulz1tlkcxxuryqckwfdhbxda14c68tdvdi0hstwled0p51cj638ufu70_6uuxfzw9hpftgieyzgdr9ygtxacp6ymlmeyzfyb177e7jwwtrgromwnadvvo5gweselmdnuyqcvu30ep9o2hg2kqepxeaphjzwh7a-khzzz5v_evrqze7edofazgsqv_hxjn4uycv5ranzvz_km-l3a9g696qkoawtrb-ihfuowta_f2jpxjhsdrv7b2io9uc75ziizrijfip6pnhdew-ji_bdy9hvpenjdb35kp0h5g2-ocuibm1gzsc_rpy44shizqbuu6hgx7vmz4aunarkekikmzlsv1ow6rbogk66n15b_9yyjx8klpjnsx0ktjpyx_vr_ylnnzspnpjtzyv7f-tafideznxdfgbuoxa76ryzffldmcelotvvm6rbhm2x6edpajqiqntmhsscyt7aa4-pdvctw4c1m1gdzopfysuq6qqm1fuy-h3d-hmdzv_ylaei7rthxflgtqw4-h8yfesj6ytnelcokszson_jwmrt6vnc7gorjuf7x-9em5egbnog21g5mnsfbrcz7xafzppmixubybeyhjybu8n52aobcqoxvzjorzq-c_h8cby66wxg83wb_khmmkjwht8tdmahwsgwtgri3mnauoklto15q0x1xjvnzw8zekuwgya_zdivdr4qvl4dspreynklhwekorfo7j0crv-xixwlpf6oiucu2dedrm2vhmah6k_3z5rnfzruyixwtlwdyzwqbjttodqib5e-km43akc4ltqdcorcxvxutoxwzqjocdo5o7yff57b061qvp9cw71zyuctbcwxfsjxncdjnxf_z8gzdhilu-bmidjclvmsldx7bodfo3ltenvytif4wc4gpyp-tcxmj7r7_jvpuxspqafaoka7ni1jmbbiqbqxrwu39jtddq_xx_4ej1nctimdghwy5nz7z4xe0dybct4s1lxmznaautllp4jtmztrlckdalsrvlgga1urlxxnfnj38qtansjikt0zcxbw0vaoyczidguf46t8a2sc-qtvzknf6wgqn265zlyvwtyiaxnlu62hbywax7ug_7_nfpua3ltopr-bg-fkpbf-krd0hrmwhuupxd_wrzb7qk3ea9cbcpppyz7tj79m454vd1tcjbbkbbcax0ea04h1kkry6adpw1xlejkj-5_aiptbye66ajlut99s7vptpv9hcal6lf_qduqfqxcqwuwqw7u_wxzuqgrp3d24ts8mdybnuyhmvsp-wd-yr7elxh6maqz3bamdui3vfqjmrxz6vviwjbnb3o_62mxfs2aerfez_74i3yaeowc9k5rhecaiw-se0rfids5qxvtv7vfe5ayd_m6wkdgm0mm9djdqjxq8yjnmhlxlo-z8ppmlll6ssq%7caplc
+2025-06-26 00:56:08 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:56:08 | ERROR    | retry_with_backoff   | All 1 attempts failed. Final error: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:56:08 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 17.14s: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:56:09 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED for 61571869733113
+2025-06-26 00:56:09 | INFO     | run_enhanced_facebook_automation | ⏳ Waiting 26.4s before next account...
+2025-06-26 00:56:35 | INFO     | run_enhanced_facebook_automation | 🔐 LOGIN PHASE: Processing account 6/6: 61571806736607
+2025-06-26 00:56:37 | DEBUG    | retry_with_backoff   | Attempt 1/1
+2025-06-26 00:56:37 | INFO     | login_attempt        | === ENHANCED LOGIN ATTEMPT FOR: 61571806736607 ===
+2025-06-26 00:56:38 | DEBUG    | human_like_delay     | Human-like delay: 2.37 seconds
+2025-06-26 00:56:40 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/
+2025-06-26 00:56:40 | DEBUG    | human_like_delay     | Human-like delay: 1.37 seconds
+2025-06-26 00:56:42 | DEBUG    | human_like_delay     | Human-like delay: 0.98 seconds
+2025-06-26 00:56:48 | DEBUG    | human_like_delay     | Human-like delay: 2.38 seconds
+2025-06-26 00:56:50 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodgxmzk5lcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-26 00:56:53 | INFO     | handle_facebook_security_challenges | Checking for security challenges on URL: https://www.facebook.com/login/?privacy_mutation_token=eyj0exblijowlcjjcmvhdglvbl90aw1lijoxnzuwodgxmzk5lcjjywxsc2l0zv9pzci6mzgxmji5mdc5ntc1otq2fq%3d%3d&next
+2025-06-26 00:56:53 | ERROR    | handle_facebook_security_challenges | Error handling security challenges: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:56:53 | ERROR    | retry_with_backoff   | All 1 attempts failed. Final error: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:56:53 | ERROR    | enhanced_login_to_facebook | ❌ LOGIN FAILED in 16.60s: Locator.is_visible: Target page, context or browser has been closed
+2025-06-26 00:56:53 | ERROR    | run_enhanced_facebook_automation | ❌ LOGIN FAILED for 61571806736607
+2025-06-26 00:56:53 | INFO     | run_enhanced_facebook_automation | Post tasks to process: 0
+2025-06-26 00:56:53 | INFO     | run_enhanced_facebook_automation | 🏁 AUTOMATION COMPLETED
+2025-06-26 00:56:53 | INFO     | run_enhanced_facebook_automation | Total login attempts: 12
+2025-06-26 00:56:53 | INFO     | run_enhanced_facebook_automation | Successful logins: 2
+2025-06-26 00:56:53 | INFO     | run_enhanced_facebook_automation | Failed logins: 10
+2025-06-26 00:56:53 | INFO     | run_enhanced_facebook_automation | Processed posts: 8
+2025-06-26 00:56:53 | INFO     | load_accounts        | Loaded 12 accounts
+2025-06-26 00:56:53 | INFO     | main                 | 🔚 Script finished

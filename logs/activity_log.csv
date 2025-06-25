@@ -1,0 +1,76 @@
+Timestamp,Account,Action,Status,Details,Post_URL,Duration_Seconds
+2025-06-25 23:55:03,61571921690396,LOGIN,SUCCESS,Login successful,,8.7718
+2025-06-25 23:55:40,61571930150364,LOGIN,FAILED,"Page.goto: Target page, context or browser has been closed",,23.169208
+2025-06-25 23:55:40,61571930150364,BROWSER,ERROR,"BrowserContext.close: Target page, context or browser has been closed",,
+2025-06-25 23:56:16,61571919171009,LOGIN,FAILED,"Page.goto: Target page, context or browser has been closed",,35.65598
+2025-06-25 23:56:16,61571919171009,BROWSER,ERROR,"BrowserContext.close: Target page, context or browser has been closed",,
+2025-06-25 23:56:22,61571926700760,LOGIN,SUCCESS,Login successful,,4.735272
+2025-06-25 23:57:08,61571935220014,LOGIN,FAILED,"Page.goto: Target page, context or browser has been closed",,22.987064
+2025-06-25 23:57:08,61571935220014,BROWSER,ERROR,"BrowserContext.close: Target page, context or browser has been closed",,
+2025-06-25 23:57:26,61571921690396,LIKE,SUCCESS,Like successful,https://www.facebook.com/share/p/1ZQbJMQ2wW/,11.276112
+2025-06-25 23:57:26,61571921690396,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1ZQbJMQ2wW/,11.276112
+2025-06-25 23:57:26,61571921690396,POST_INTERACTION,SUCCESS,Successfully liked and commented in 11.28s,https://www.facebook.com/share/p/1ZQbJMQ2wW/,11.276112
+2025-06-25 23:59:56,61571926700760,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1ZQbJMQ2wW/,104.087089
+2025-06-25 23:59:56,61571926700760,POST_INTERACTION,SUCCESS,Successfully commented in 104.09s,https://www.facebook.com/share/p/1ZQbJMQ2wW/,104.087089
+2025-06-26 00:00:50,61571921690396,LOGIN,SUCCESS,Login successful,,7.390823
+2025-06-26 00:01:41,61571930150364,LOGIN,FAILED,"Page.goto: Target page, context or browser has been closed",,23.59354
+2025-06-26 00:01:41,61571930150364,BROWSER,ERROR,"BrowserContext.close: Target page, context or browser has been closed",,
+2025-06-26 00:02:01,61571919171009,LOGIN,FAILED,"Page.goto: Target page, context or browser has been closed",,18.77992
+2025-06-26 00:02:01,61571919171009,BROWSER,ERROR,"BrowserContext.close: Target page, context or browser has been closed",,
+2025-06-26 00:02:08,61571926700760,LOGIN,SUCCESS,Login successful,,6.7877
+2025-06-26 00:03:02,61571935220014,LOGIN,FAILED,"Page.goto: Target page, context or browser has been closed",,23.299739
+2025-06-26 00:03:02,61571935220014,BROWSER,ERROR,"BrowserContext.close: Target page, context or browser has been closed",,
+2025-06-26 00:03:22,61571921690396,LIKE,SUCCESS,Like successful,https://www.facebook.com/share/p/1ZQbJMQ2wW/,12.564385
+2025-06-26 00:03:22,61571921690396,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1ZQbJMQ2wW/,12.564385
+2025-06-26 00:03:22,61571921690396,POST_INTERACTION,SUCCESS,Successfully liked and commented in 12.56s,https://www.facebook.com/share/p/1ZQbJMQ2wW/,12.564385
+2025-06-26 00:05:13,61571921690396,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1C4FA9mP6T/,106.92989
+2025-06-26 00:05:13,61571921690396,POST_INTERACTION,SUCCESS,Successfully commented in 106.93s,https://www.facebook.com/share/p/1C4FA9mP6T/,106.92989
+2025-06-26 00:07:33,61571926700760,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1ZQbJMQ2wW/,104.091805
+2025-06-26 00:07:33,61571926700760,POST_INTERACTION,SUCCESS,Successfully commented in 104.09s,https://www.facebook.com/share/p/1ZQbJMQ2wW/,104.091805
+2025-06-26 00:09:27,61571926700760,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1C4FA9mP6T/,106.283394
+2025-06-26 00:09:27,61571926700760,POST_INTERACTION,SUCCESS,Successfully commented in 106.28s,https://www.facebook.com/share/p/1C4FA9mP6T/,106.283394
+2025-06-26 00:15:18,61571921690396,LIKE,SUCCESS,Like successful,https://www.facebook.com/share/p/1ENqtZqdHC/,13.237539
+2025-06-26 00:15:18,61571921690396,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1ENqtZqdHC/,13.237539
+2025-06-26 00:15:18,61571921690396,POST_INTERACTION,SUCCESS,Successfully liked and commented in 13.24s,https://www.facebook.com/share/p/1ENqtZqdHC/,13.237539
+2025-06-26 00:17:07,61571926700760,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1ENqtZqdHC/,102.985301
+2025-06-26 00:17:07,61571926700760,POST_INTERACTION,SUCCESS,Successfully commented in 102.99s,https://www.facebook.com/share/p/1ENqtZqdHC/,102.985301
+2025-06-26 00:18:06,61571921690396,LOGIN,SUCCESS,Login successful,,6.790617
+2025-06-26 00:25:24,61571930150364,LOGIN,FAILED,"Locator.is_visible: Target page, context or browser has been closed",,18.987514
+2025-06-26 00:25:25,61571930150364,BROWSER,ERROR,"BrowserContext.close: Target page, context or browser has been closed",,
+2025-06-26 00:25:37,61571919171009,LOGIN,FAILED,"Locator.is_visible: Target page, context or browser has been closed",,10.590962
+2025-06-26 00:25:37,61571919171009,BROWSER,ERROR,"BrowserContext.close: Target page, context or browser has been closed",,
+2025-06-26 00:25:44,61571926700760,LOGIN,SUCCESS,Login successful,,6.074955
+2025-06-26 00:25:58,61571935220014,LOGIN,FAILED,"Locator.is_visible: Target page, context or browser has been closed",,11.903117
+2025-06-26 00:25:58,61571935220014,BROWSER,ERROR,"BrowserContext.close: Target page, context or browser has been closed",,
+2025-06-26 00:26:10,61571904081856,LOGIN,FAILED,"Target page, context or browser has been closed
+=========================== logs ===========================
+""domcontentloaded"" event fired
+""load"" event fired
+============================================================",,10.886205
+2025-06-26 00:26:29,61571921690396,LIKE,SUCCESS,Like successful,https://www.facebook.com/share/p/1ZQbJMQ2wW/,12.229911
+2025-06-26 00:26:29,61571921690396,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1ZQbJMQ2wW/,12.229911
+2025-06-26 00:26:29,61571921690396,POST_INTERACTION,SUCCESS,Successfully liked and commented in 12.23s,https://www.facebook.com/share/p/1ZQbJMQ2wW/,12.229911
+2025-06-26 00:28:42,61571921690396,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1C4FA9mP6T/,103.140544
+2025-06-26 00:28:42,61571921690396,POST_INTERACTION,SUCCESS,Successfully commented in 103.14s,https://www.facebook.com/share/p/1C4FA9mP6T/,103.140544
+2025-06-26 00:30:02,61571921690396,LIKE,SUCCESS,Like successful,https://www.facebook.com/share/p/1ENqtZqdHC/,13.99006
+2025-06-26 00:30:02,61571921690396,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1ENqtZqdHC/,13.99006
+2025-06-26 00:30:02,61571921690396,POST_INTERACTION,SUCCESS,Successfully liked and commented in 13.99s,https://www.facebook.com/share/p/1ENqtZqdHC/,13.99006
+2025-06-26 00:32:15,61571926700760,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1ZQbJMQ2wW/,105.711187
+2025-06-26 00:32:15,61571926700760,POST_INTERACTION,SUCCESS,Successfully commented in 105.71s,https://www.facebook.com/share/p/1ZQbJMQ2wW/,105.711187
+2025-06-26 00:45:48,61571926700760,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1C4FA9mP6T/,107.254402
+2025-06-26 00:45:48,61571926700760,POST_INTERACTION,SUCCESS,Successfully commented in 107.25s,https://www.facebook.com/share/p/1C4FA9mP6T/,107.254402
+2025-06-26 00:47:45,61571926700760,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/1ENqtZqdHC/,104.222234
+2025-06-26 00:47:45,61571926700760,POST_INTERACTION,SUCCESS,Successfully commented in 104.22s,https://www.facebook.com/share/p/1ENqtZqdHC/,104.222234
+2025-06-26 00:49:28,61571921690396,LIKE,SUCCESS,Like successful,https://www.facebook.com/share/p/12MJ6MJFxiM/,11.756742
+2025-06-26 00:49:28,61571921690396,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/12MJ6MJFxiM/,11.756742
+2025-06-26 00:49:28,61571921690396,POST_INTERACTION,SUCCESS,Successfully liked and commented in 11.76s,https://www.facebook.com/share/p/12MJ6MJFxiM/,11.756742
+2025-06-26 00:51:31,61571926700760,COMMENT,SUCCESS,Comment successful,https://www.facebook.com/share/p/12MJ6MJFxiM/,102.950284
+2025-06-26 00:51:31,61571926700760,POST_INTERACTION,SUCCESS,Successfully commented in 102.95s,https://www.facebook.com/share/p/12MJ6MJFxiM/,102.950284
+2025-06-26 00:52:29,61571930630584,LOGIN,FAILED,"Locator.is_visible: Target page, context or browser has been closed",,21.067321
+2025-06-26 00:53:41,61571875163120,LOGIN,FAILED,"Locator.is_visible: Target page, context or browser has been closed",,41.563633
+2025-06-26 00:54:19,61571876063336,LOGIN,FAILED,"Locator.is_visible: Target page, context or browser has been closed",,18.47618
+2025-06-26 00:55:01,61571871683347,SECURITY_CHALLENGE,CHECKPOINT,Identity verification required,https://www.facebook.com/checkpoint/disabled/?next,
+2025-06-26 00:55:26,61571871683347,SECURITY_CHALLENGE,CHECKPOINT,Identity verification required,https://www.facebook.com/checkpoint/dyi/?referrer=disabled_checkpoint,
+2025-06-26 00:55:39,61571871683347,LOGIN,FAILED,"Locator.is_visible: Target page, context or browser has been closed",,51.679647
+2025-06-26 00:56:09,61571869733113,LOGIN,FAILED,"Locator.is_visible: Target page, context or browser has been closed",,17.136815
+2025-06-26 00:56:53,61571806736607,LOGIN,FAILED,"Locator.is_visible: Target page, context or browser has been closed",,16.599168
