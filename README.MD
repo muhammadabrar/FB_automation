@@ -60,8 +60,8 @@ The tool reads these files at startup and processes the accounts and posts as sp
 
 1. **Clone the repository**  
    ```sh
-   git clone <your-repo-url>
-   cd <repo-folder>
+   https://github.com/MuhammadAizazA/FB_automation.git
+   cd FB_automation
    ```
 
 2. **Install dependencies**  
