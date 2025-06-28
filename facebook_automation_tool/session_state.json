@@ -1,0 +1,70 @@
+{
+  "session_id": "20250626_001758",
+  "login_attempts": [
+    "61571921690396",
+    "61571930150364",
+    "61571919171009",
+    "61571926700760",
+    "61571935220014",
+    "61571904081856",
+    "61571930630584",
+    "61571875163120",
+    "61571876063336",
+    "61571871683347",
+    "61571869733113",
+    "61571806736607"
+  ],
+  "successful_logins": [
+    "61571921690396",
+    "61571926700760"
+  ],
+  "failed_logins": [
+    "61571930150364",
+    "61571919171009",
+    "61571935220014",
+    "61571904081856",
+    "61571930630584",
+    "61571875163120",
+    "61571876063336",
+    "61571871683347",
+    "61571869733113",
+    "61571806736607"
+  ],
+  "processed_posts": [
+    {
+      "account": "61571921690396",
+      "post_url": "https://www.facebook.com/share/p/1ZQbJMQ2wW/"
+    },
+    {
+      "account": "61571921690396",
+      "post_url": "https://www.facebook.com/share/p/1C4FA9mP6T/"
+    },
+    {
+      "account": "61571921690396",
+      "post_url": "https://www.facebook.com/share/p/1ENqtZqdHC/"
+    },
+    {
+      "account": "61571926700760",
+      "post_url": "https://www.facebook.com/share/p/1ZQbJMQ2wW/"
+    },
+    {
+      "account": "61571926700760",
+      "post_url": "https://www.facebook.com/share/p/1C4FA9mP6T/"
+    },
+    {
+      "account": "61571926700760",
+      "post_url": "https://www.facebook.com/share/p/1ENqtZqdHC/"
+    },
+    {
+      "account": "61571921690396",
+      "post_url": "https://www.facebook.com/share/p/12MJ6MJFxiM/"
+    },
+    {
+      "account": "61571926700760",
+      "post_url": "https://www.facebook.com/share/p/12MJ6MJFxiM/"
+    }
+  ],
+  "current_account": "61571806736607",
+  "start_time": "2025-06-26T00:17:58.093740",
+  "last_update": "2025-06-26T00:56:53.704762"
+}
