@@ -5,10 +5,15 @@ from datetime import datetime
 
 logger = logging.getLogger('FacebookAutomation')
 
+CONFIG_FILE = os.path.join(os.path.dirname(__file__), "data", "automation_config.json")
+os.makedirs(os.path.dirname(CONFIG_FILE), exist_ok=True) 
+
 class AutomationConfig:
     """Configuration management for automation"""
 
-    def __init__(self, config_file="automation_config.json"):
+    def __init__(self, config_file=None):
+        if config_file is None:
+            config_file = CONFIG_FILE
         self.config_file = config_file
         self.load_config()
 

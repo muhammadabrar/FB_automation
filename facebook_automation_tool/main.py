@@ -1,11 +1,26 @@
-from configuration import AutomationConfig
-from logging_module import setup_logging, logger
+from logging_module import logger
 from account_management import AccountManager
-from post_url_management import PostURLManager
 from session_management import SessionState
 from facebook_automation import run_enhanced_facebook_automation, display_startup_banner, display_final_summary
 
 def main():
+    """
+    Main entry point for the Enhanced Facebook Automation Tool.
+
+    This function handles the overall workflow of the automation, including
+    displaying the startup banner, running the automation, displaying the
+    final summary, and handling any exceptions that may occur during
+    execution.
+
+    If the script is interrupted by the user (e.g., via Ctrl+C), it will
+    display the final summary and exit gracefully.
+
+    If an exception occurs during execution, it will be logged and the
+    script will exit with a non-zero status code.
+
+    Finally, a message will be printed to the console to indicate that the
+    script has finished executing.
+    """
     try:
         display_startup_banner()
         run_enhanced_facebook_automation()
