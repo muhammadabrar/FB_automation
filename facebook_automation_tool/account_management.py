@@ -3,7 +3,8 @@ import json
 from datetime import datetime
 from logging_module import logger
 
-ACCOUNTS_FILE = "accounts.json"
+ACCOUNTS_FILE = os.path.join(os.path.dirname(__file__), "data", "accounts.json")
+os.makedirs(os.path.dirname(ACCOUNTS_FILE), exist_ok=True)
 
 class AccountManager:
     """Manage Facebook accounts with improved handling"""
@@ -25,13 +26,13 @@ class AccountManager:
                 logger.warning(f"Error loading accounts: {e}")
                 self.accounts = []
         else:
-            # Default accounts
+            # Default accounts - fixed to be a list of dictionaries
             self.accounts = [
-                "61571921690396",
-                "61571930150364",
-                "61571919171009",
-                "61571926700760",
-                "61571935220014"
+                {"id": "61571921690396", "password": "kkk888"},
+                {"id": "61571930150364", "password": "kkk888"},
+                {"id": "61571919171009", "password": "kkk888"},
+                {"id": "61571926700760", "password": "kkk888"},
+                {"id": "61571935220014", "password": "kkk888"}
             ]
             self.save_accounts()
 
@@ -48,102 +49,6 @@ class AccountManager:
         except Exception as e:
             logger.error(f"Error saving accounts: {e}")
 
-    def add_account(self, account):
-        """Add a new account"""
-        if account and account not in self.accounts:
-            self.accounts.append(account)
-            self.save_accounts()
-            return True
-        return False
-
-    def remove_account(self, account):
-        """Remove an account"""
-        if account in self.accounts:
-            self.accounts.remove(account)
-            self.save_accounts()
-            return True
-        return False
-
     def get_accounts(self):
         """Get current accounts"""
         return self.accounts.copy()
-
-    def clear_accounts(self):
-        """Clear all accounts"""
-        self.accounts = []
-        self.save_accounts()
-
-    def interactive_account_management(self):
-        """Interactive account management"""
-        while True:
-            print("\n" + "="*60)
-            print("👥 ACCOUNT MANAGEMENT")
-            print("="*60)
-
-            if self.accounts:
-                print("Current Accounts:")
-                for i, account in enumerate(self.accounts, 1):
-                    print(f"  {i}. {account}")
-            else:
-                print("No accounts configured.")
-
-            print("\nOptions:")
-            print("1. Add new account")
-            print("2. Remove account")
-            print("3. Clear all accounts")
-            print("4. Continue with current accounts")
-            print("5. Exit program")
-
-            choice = input("\nEnter your choice (1-5): ").strip()
-
-            if choice == "1":
-                account = input("Enter new account (username/email/phone): ").strip()
-                if account:
-                    if self.add_account(account):
-                        print(f"✅ Added: {account}")
-                    else:
-                        print("⚠️ Account already exists or invalid")
-                else:
-                    print("❌ Invalid account")
-
-            elif choice == "2":
-                if not self.accounts:
-                    print("❌ No accounts to remove")
-                    continue
-
-                print("Select account to remove:")
-                for i, account in enumerate(self.accounts, 1):
-                    print(f"  {i}. {account}")
-
-                try:
-                    idx = int(input("Enter number: ").strip()) - 1
-                    if 0 <= idx < len(self.accounts):
-                        removed_account = self.accounts[idx]
-                        self.remove_account(removed_account)
-                        print(f"✅ Removed: {removed_account}")
-                    else:
-                        print("❌ Invalid selection")
-                except ValueError:
-                    print("❌ Invalid input")
-
-            elif choice == "3":
-                confirm = input("Clear all accounts? (yes/no): ").strip().lower()
-                if confirm in ['yes', 'y']:
-                    self.clear_accounts()
-                    print("✅ All accounts cleared")
-
-            elif choice == "4":
-                if not self.accounts:
-                    print("❌ No accounts configured. Please add at least one account.")
-                    continue
-                print("✅ Continuing with current accounts")
-                break
-
-            elif choice == "5":
-                print("👋 Exiting program")
-                return False
-
-            else:
-                print("❌ Invalid choice")
-
-        return True

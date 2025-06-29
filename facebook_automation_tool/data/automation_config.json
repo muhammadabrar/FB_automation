@@ -11,7 +11,7 @@
         "element_wait": 10
     },
     "retry": {
-        "max_attempts": 1,
+        "max_attempts": 3,
         "base_delay": 2
     },
     "browser": {
