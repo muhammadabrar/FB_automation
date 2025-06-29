@@ -51,6 +51,28 @@ It is designed for non-interactive, configuration-driven automation with session
 
 ---
 
+## Setup
+
+1. **Clone the repository**  
+   ```sh
+   https://github.com/MuhammadAizazA/FB_automation.git
+   cd FB_automation
+   ```
+
+2. **Install dependencies**  
+   ```sh
+   pip install -r requirements.txt
+   python -m playwright install
+   ```
+
+3. **Configure Facebook Password**  
+   - Set your password in `.env` as `FB_PASSWORD="yourpassword"`  
+   - Or, you will be prompted at runtime.
+
+4. **Edit configuration files**  
+   - Add Facebook account IDs and credentials in `accounts.json`
+   - Add post URLs in `post_urls.json`
+   - (Optional) Adjust settings in `automation_config.json`
 ## Configuration
 
 - **accounts.json**: List of Facebook account IDs and credentials.
@@ -103,3 +125,8 @@ Edit these files in `facebook_automation_tool/data/` before running the tool.
 ## License
 
 MIT License
+
+---
+
+**Author:**  
+[Your Name
