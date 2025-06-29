@@ -65,11 +65,7 @@ It is designed for non-interactive, configuration-driven automation with session
    python -m playwright install
    ```
 
-3. **Configure Facebook Password**  
-   - Set your password in `.env` as `FB_PASSWORD="yourpassword"`  
-   - Or, you will be prompted at runtime.
-
-4. **Edit configuration files**  
+3. **Edit configuration files**  
    - Add Facebook account IDs and credentials in `accounts.json`
    - Add post URLs in `post_urls.json`
    - (Optional) Adjust settings in `automation_config.json`
@@ -118,15 +114,5 @@ Edit these files in `facebook_automation_tool/data/` before running the tool.
 - Each account uses a separate browser profile for session isolation.
 - Handles Facebook security challenges with user prompts.
 - Designed for educational and research purposes.  
-  **Do not use for spamming or violating Facebook's terms of service.**
 
 ---
-
-## License
-
-MIT License
-
----
-
-**Author:**  
-[Your Name
