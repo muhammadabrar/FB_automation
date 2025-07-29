@@ -227,7 +227,7 @@ class PostProcessor:
         
         try:
             with self.browser_manager.create_browser_context(account_id) as (page, browser):
-                if self._ensure_logged_in(page, account_id, account_password):
+                if self._ensure_logged_in(page, account_id, account_password,from_post=True):
                     self._interact_with_post(page, post_url, account_id)
                 else:
                     logger.error(f"❌ Could not establish login for {account_id}, skipping post: {post_url}")
@@ -236,14 +236,14 @@ class PostProcessor:
             logger.error(f"💥 Error during post interaction for {account_id}: {str(e)}")
             self.csv_logger.log_activity(account_id, "BROWSER", "ERROR", str(e))
     
-    def _ensure_logged_in(self, page, account_id: str, account_password: str) -> bool:
+    def _ensure_logged_in(self, page, account_id: str, account_password: str,from_post:Optional[bool]=False) -> bool:
         """Ensure the account is logged in, attempt re-login if necessary"""
         page.goto('https://www.facebook.com')
         human_like_delay(*self.config.LOGIN_CHECK_DELAY_RANGE)
         
         if not self.login_checker.is_logged_in(page):
             logger.warning(f"⚠️ Session lost for {account_id}, attempting re-login")
-            return enhanced_login_to_facebook(page, account_id, account_password, self.session)
+            return enhanced_login_to_facebook(page, account_id, account_password, self.session,from_post=from_post)
         
         return True
     
@@ -334,15 +334,16 @@ class ReportGenerator:
         
         # Post processing summary
         processed_posts = session.state.get('processed_posts', [])
+        print(f"Debug: processed_posts type: {type(processed_posts)}, value: {processed_posts}")
         if processed_posts:
-            print(f"\n📝 POST INTERACTIONS COMPLETED: {len(processed_posts)}")
+            print(f"📝 POST INTERACTIONS COMPLETED: {len(processed_posts)}")
             post_summary = {}
             for entry in processed_posts:
                 account_id = entry.get('account_id', 'Unknown')
                 if account_id not in post_summary:
                     post_summary[account_id] = 0
                 post_summary[account_id] += 1
-            
+
             for account_id, count in post_summary.items():
                 print(f"  {account_id}: {count} posts processed")
         
